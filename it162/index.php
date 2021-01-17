@@ -34,10 +34,10 @@
  <h2 class="pageID">Welcome</h2>
 
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
- <img src="images/desktop.jpg" class="desktop" alt="Abby in bed" />
- <img src="images/phone.jpg" class="phone" alt="Abby eating puppuccino" />
- <h3>Meet Abby</h3>
- <p>This is Abby, the youngest of the fur-babies that live in my home. She may be the youngest however she isn't the smallest.</p>
+ <img src="images/desktop.jpg" class="desktop" alt="Marston's on PC" />
+ <img src="images/phone.jpg" class="phone" alt="Wedding Arch" />
+ <p>Lorem Ipsum place holder text goes here for now</p>
+ <p>Lorem Ipsum place holder text goes here for now</p>
  <p>Lorem Ipsum place holder text goes here for now</p>
  <p>Lorem Ipsum place holder text goes here for now</p>
 </section>
@@ -46,7 +46,7 @@
 <!-- START RIGHT COL -->
 <aside>
  <h3>Right Column</h3>
- <img src="images/tablet.jpg" class="tablet" alt="Abby's begging for Starbucks" />
+ <img src="images/tablet.jpg" class="tablet" alt="US" />
  <p>Lorem Ipsum place holder text goes here for now</p>
  <p>Lorem Ipsum place holder text goes here for now</p>
 </aside>
@@ -54,7 +54,7 @@
  
 <!-- START Footer -->
 <footer>
-  <p><small>&copy; 2021 - <?=date('Y')?> by <a href="contactme.php" target="_blank">Luann Marston</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+  <p><small>&copy; 2018 - <?=date('Y')?> by <a href="contactme.php" target="_blank">Luann Marston</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
 </footer>
 <!-- END Footer --> 
 </main>
