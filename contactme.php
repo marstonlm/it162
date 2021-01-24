@@ -1,4 +1,9 @@
 <?php include "includes/header.php";?>
+
+<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
+ <img src="images/desktop.jpg" class="desktop" alt="Abby in bed" />
+ <img src="images/phone.jpg" class="phone" alt="Abby eating puppuccino" />
+
 <?php
         /*
          * Below are 2 different forms to be re-used       
@@ -17,5 +22,6 @@
         echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
+ </section>
  
 <?php include "includes/footer.php";?>
