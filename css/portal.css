@@ -2,10 +2,10 @@
 
 /* --------Color Palette ----------
 #4E0250 - Russian Violet - Header/Footer
-#801A86 - Mardi Gras #801A86
-#645986 - Dark Blue Gray 645986
-#8FE388 - Light Green #8FE388
-#58BC82 - Medium Sea Green #58BC82 */
+#801A86 - Mardi Gras
+#645986 - Dark Blue Gray - Main Font Color
+#8FE388 - Light Green 
+#58BC82 - Medium Sea Green */
 
 /* ----------- Global Styles ----------- */
 html {
@@ -25,21 +25,35 @@ main.wrapper {
     overflow:auto;
 }
 header {
-    background: #fff;
+    background: #4E0250;
+    top: 0;
     margin: 0;
 }
 
 h1>a {
     text-decoration: none;
-    color: #801A86;
+    color: #58BC82;
 }
 
+
+
 .logo {
-    color:#4E0250;
+    color:#58BC82;
     margin-left:1%;
     margin-right: 1%;
     text-shadow:1px 1px #ccc;
     font-size:1.25em;
+}
+
+
+footer {
+    clear:both;
+    background-color: #fff; /* #4E0250 */
+    color: #ccc; /*#58BC82 */
+}
+
+footer p {
+    text-align: center;
 }
 
 /* Embed Responsively Rules! */
@@ -58,12 +72,6 @@ div.embed-container iframe {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-footer {
-	clear:both;
-    background-color: #fff;
-    color: #801A86;
 }
 
 
