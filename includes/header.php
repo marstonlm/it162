@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Luann Marston's IT162 Portal</title>
+<title><?=$title?></title>
 <meta name="viewport" content="width=device-width" />
 <meta name="robots" content="noindex,nofollow" />
 <meta charset="utf-8">
@@ -16,7 +16,7 @@
 <!-- START WRAPPER -->
 <main class="wrapper">
 <header>
-  <h1><a href="index.php"><i class="logo fa fa-home"></i>Luann's IT162 Portal</a></h1>
+  <h1><a href="index.php"><i class="logo fa <?=$logo?>"></i>Luann's IT162 Portal</a></h1>
   <nav>
     <ul class="topnav" id="myTopnav">
       <li><a href="index.php" class="selected">Welcome</a></li>
@@ -32,4 +32,4 @@
         
 <!-- START LEFT COL -->
 <section>
- <h2 class="pageID">Welcome</h2>
+ <h2 class="pageID"><?=$pageID?></h2>
