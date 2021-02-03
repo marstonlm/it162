@@ -1,9 +1,6 @@
 <?php include "includes/header.php";?>
 
-<!-- START LEFT COL -->
-<section>
-	
-	<h2 class="pageID">Welcome</h2>
+
 	<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
 	<img src="images/desktop.jpg" class="desktop" alt="Abby in bed" />
 	<img src="images/phone.jpg" class="phone" alt="Abby eating puppuccino" />
