@@ -17,5 +17,5 @@
         echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?> 
- 
+ </section>
 <?php include "includes/footer.php";?>
