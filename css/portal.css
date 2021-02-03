@@ -86,13 +86,13 @@ div.embed-container iframe {
 		margin:auto;
 	}
 
-    section {
+    .section-main {
 		width:65%;
         padding: 5px;
 		float:left;
 	}
 	
-     aside {	
+     .aside-main {	
 		width:34%;
         padding: 5px;
 		float:right;
