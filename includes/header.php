@@ -29,3 +29,6 @@
   </nav>
 </header>
         
+<!-- START LEFT COL -->
+<section>
+ <h2 class="pageID">Welcome</h2>
