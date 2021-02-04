@@ -19,15 +19,13 @@
   <h1><a href="index.php"><i class="logo fa <?=$logo?>"></i>Luann's IT162 Portal</a></h1>
   <nav>
     <ul class="topnav" id="myTopnav">
-    <?=makeLinks($nav)?>
-      <!--
+
       <li><a href="index.php" class="selected">Welcome</a></li>
       <li><a href="big/index.php">Big</a></li>
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart/Layout</a></li>
       <li><a href="fp/index.php">Final Project</a></li>
       <li><a href="contactme.php">Contact Luann</a></li>
--->
       <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
     </ul>
   </nav>

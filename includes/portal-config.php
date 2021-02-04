@@ -22,14 +22,14 @@ switch(THIS_PAGE){
 	break;
 
 	case 'big/index.php':
-		$title = "Big";
-		$logo = 'fa-pencil-square-o';
+		$title = "Luann's Big";
+		$logo = 'fa-universal-access';
 		$pageID = 'Big';
 	break;
 
 	case 'aia.php':
-		$title = "Aia";
-		$logo = 'fa-pencil-square-o';
+		$title = "AIA";
+		$logo = 'fa-universal-access';
 		$pageID = 'Aia';
 	break;
 
@@ -40,16 +40,16 @@ switch(THIS_PAGE){
 	break;
 
 	case 'fp/index.php':
-		$title = "Final Project";
+		$title = "Luann's Final Project";
 		$logo = 'fa-pencil-square-o';
 		$pageID = 'Final Project';
 	break;
-
+/*
 	case 'contactme.php':
 		$title = "Luann's IT162 Contact Page";
-		$logo = 'fa-pencil-square-o';
+		$logo = 'fa-pencil-plane-o';
 		$pageID = 'Contact Luann';
-	break;
+	break; */
 
 	default:
 		$title = THIS_PAGE;
@@ -57,7 +57,7 @@ switch(THIS_PAGE){
 		$pageID = 'Welcome';
 }
 
-
+/*
 
 $nav[index.php] = 'Welcome';
 $nav[big/index.php] = 'Big';
@@ -65,7 +65,7 @@ $nav[aia.php] = 'AIA';
 $nav[flowchart.php] = 'Flowchart / Layout';
 $nav[fp/index.php] = 'Final Project';
 $nav[contactme.php] = 'Contact Luann';
-
+*/
 
 /* 
 *function for nav links
@@ -80,17 +80,17 @@ $nav[contactme.php] = 'Contact Luann';
       <li><a href="contactme.php">Contact Luann</a></li>
 */
 
-
+/*
 
 function makeLinks($nav)
 {
 	$myReturn = '';
 	foreach($nav as $url => $text){
-			$myReturn .= " <li><a href=\"contactme.php\">Contact Luann</a></li>";
+			$myReturn .= "<li><a href=\"$url\">$text</a></li>";
 	}
 
 	return $myReturn;
 
 }
-
+*/
 ?>
