@@ -67,8 +67,9 @@ $nav[fp/index.php] = 'Final Project';
 $nav[contactme.php] = 'Contact Luann';
 
 
-/* function for nav links
-and hightlight current page
+/* 
+*function for nav links
+*hightlight current page
 
 
 <li><a href="index.php" class="selected">Welcome</a></li>
@@ -85,13 +86,7 @@ function makeLinks($nav)
 {
 	$myReturn = '';
 	foreach($nav as $url => $text){
-
-		if($url == THIS_PAGE){
-			$myReturn .= "<li><a class=\"selected\" href=\"$url\">$text</a></li>";
-
-		}else{
-			$myReturn .= "<li><a href=\"$url\">$text</a></li>";
-		}
+			$myReturn .= " <li><a href=\"contactme.php\">Contact Luann</a></li>";
 	}
 
 	return $myReturn;
