@@ -44,12 +44,12 @@ switch(THIS_PAGE){
 		$logo = 'fa-pencil-square-o';
 		$pageID = 'Final Project';
 	break;
-/*
+
 	case 'contactme.php':
 		$title = "Luann's IT162 Contact Page";
 		$logo = 'fa-pencil-plane-o';
 		$pageID = 'Contact Luann';
-	break; */
+	break; 
 
 	default:
 		$title = THIS_PAGE;
