@@ -57,22 +57,22 @@ switch(THIS_PAGE){
 		$pageID = 'Welcome';
 }
 
-/*
+// arry for navigation
 
-$nav[index.php] = 'Welcome';
-$nav[big/index.php] = 'Big';
-$nav[aia.php] = 'AIA';
-$nav[flowchart.php] = 'Flowchart / Layout';
-$nav[fp/index.php] = 'Final Project';
-$nav[contactme.php] = 'Contact Luann';
-*/
+$nav1['index.php'] = "Welcome";
+$nav1['big/index.php'] = "Big";
+$nav1['aia.php'] = "AIA";
+$nav1['flowchart.php'] = "Flowchart  Layout";
+$nav1['fp/index.php'] = "Final Project";
+$nav1['contactme.php'] = "Contact Luann";
+
 
 /* 
 *function for nav links
 *hightlight current page
 
 
-<li><a href="index.php" class="selected">Welcome</a></li>
+			<li><a href="index.php">Welcome</a></li>
       <li><a href="big/index.php">Big</a></li>
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart/Layout</a></li>
@@ -80,17 +80,24 @@ $nav[contactme.php] = 'Contact Luann';
       <li><a href="contactme.php">Contact Luann</a></li>
 */
 
-/*
 
-function makeLinks($nav)
+
+function makeLinks($linkArray)
 {
-	$myReturn = '';
-	foreach($nav as $url => $text){
-			$myReturn .= "<li><a href=\"$url\">$text</a></li>";
-	}
+    $myReturn = '';
 
-	return $myReturn;
+    foreach($linkArray as $url => $text)
+    {
+        if($url == THIS_PAGE)
+        {//selected page - add class reference
+	    	$myReturn .= '<li><a class="selected" href="' . $url . '">' . $text . '</a></li>' . PHP_EOL;
+    	}else{
+	    	$myReturn .= '<li><a href="' . $url . '">' . $text . '</a></li>'  . PHP_EOL;
+    	}    
+    }
+      
+    return $myReturn;   
+} 
 
-}
-*/
+
 ?>
