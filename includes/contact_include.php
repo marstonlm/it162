@@ -49,7 +49,7 @@
 $siteKey = "6LcHYjYaAAAAAEUuL1Rai4fdZ_1yqLVcF89SFzFh";
 $secretKey = "6LcHYjYaAAAAAEmydxs5fQNeOHPG3s0UVGIBIWz-";
 date_default_timezone_set('America/Los_Angeles'); #sets default date/timezone for this website
-$server = 'hostgator.com';
+$server = 'dreamhost.com';
 //end config area ----------------------------------------
 
 spl_autoload_register('MyAutoLoader::NamespaceLoader');#will check subfolders as namespaces
