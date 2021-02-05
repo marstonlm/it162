@@ -5,6 +5,11 @@ portal-config.php
 Use to store all of our IT 162 configuration info
 
 */
+//prevents data from being sent early
+ob_start();
+
+//this helps us avoid PHP date errors:
+date_default_timezone_set('America/Los_Angeles');
 
 //echo basename($_SERVER['PHP_SELF']);
 
