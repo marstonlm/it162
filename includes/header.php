@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width" />
 <meta name="robots" content="noindex,nofollow" />
 <meta charset="utf-8">
-<script src="https://use.fontawesome.com/6a71565c22.js"></script>
+<script src="https://use.fontawesome.com/314cae04ff.js"></script>
 <link rel="stylesheet" href="css/nav.css" />
 <link rel="stylesheet" href="css/portal.css" />
 <link rel="stylesheet" href="css/form.css" />
@@ -16,7 +16,7 @@
 <!-- START WRAPPER -->
 <main class="wrapper">
 <header>
-  <h1><a href="index.php"><i class="logo fa <?=$logo?>"></i>Luann's IT162 Portal</a></h1>
+  <h1><a href="index.php"><i class="logo fa fa-home"></i>Luann's IT162 Portal</a></h1>
   <nav>
     <ul class="topnav" id="myTopnav">
       <?=makeLinks($nav1)?>
