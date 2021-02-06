@@ -1,7 +1,7 @@
 <?php include 'portal-config.php'?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
 <title><?=$title?></title>
 <meta name="viewport" content="width=device-width" />
 <meta name="robots" content="noindex,nofollow" />
@@ -16,7 +16,7 @@
 <!-- START WRAPPER -->
 <main class="wrapper">
 <header>
-  <h1><a href="index.php"><i class="logo fa fa-home"></i>Luann's IT162 Portal</a></h1>
+  <h1><i class="logo fa <?=logo?>"></i>Luann's IT162 Portal</h1>
   <nav>
     <ul class="topnav" id="myTopnav">
       <?=makeLinks($nav1)?>
