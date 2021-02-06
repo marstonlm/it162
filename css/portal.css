@@ -48,8 +48,8 @@ h1>a {
 
 footer {
     clear:both;
-    background-color: #fff; /* #4E0250 */
-    color: #4E0250; /*#58BC82 */
+    background-color: #fff; /* #4E0250, #fff */
+    color: *#58BC82; /*#58BC82 */
 }
 
 footer p {
