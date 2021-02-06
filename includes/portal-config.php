@@ -1,6 +1,6 @@
 <?
 /*
-portal-config.php
+portal-config.php 
 
 Use to store all of our IT 162 configuration info
 
@@ -29,6 +29,7 @@ switch(THIS_PAGE){
 	case 'big/index.php':
 		$title = "Luann's Big";
 		$logo = 'fa-universal-access';
+//		$logo_color = ' style="color:#58BC82"';
 		$pageID = 'Big';
 	break;
 
@@ -52,14 +53,15 @@ switch(THIS_PAGE){
 
 	case 'contactme.php':
 		$title = "Luann's IT162 Contact Page";
-		$logo = 'fa-pencil-plane-o';
+		$logo = 'fa-paper-plane-o';
+	//	$logo_color = ' style="color:#0f0"';
 		$pageID = 'Contact Luann';
 	break; 
 
 	default:
 		$title = THIS_PAGE;
 		$logo = 'fa-home';
-		$pageID = 'Welcome';
+		$pageID = ''; //no icon by default
 }
 
 // arry for navigation
