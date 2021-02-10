@@ -16,7 +16,7 @@
 <!-- START WRAPPER -->
 <main class="wrapper">
 <header>
-  <h1><i class="logo fa f-home <?=$logo?>"></i>Luann's IT162 Portal</h1>
+  <h1><i class="logo fa fa-home <?=$logo?>"></i>Luann's IT162 Portal</h1>
   <nav>
     <ul class="topnav" id="myTopnav">
       <?=makeLinks($nav1)?>

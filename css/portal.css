@@ -36,7 +36,15 @@ h1>a {
     color: #58BC82;
 }
 
+/* font awesome icon styles */
+i.logo {
+    color: darkred; /* a less boring color */
+    text-shadow: 1px 1px #ccc; /* give the icon a little depth */
+    font-size: 1.25em; /* font awesome icons are text, so make it a bit bitter */
+    margin-left: 1%; /* this keeps the icon from being squeezed to the left */
+}
 
+/* pre font awesome icon styles
 .logo {
     color:#58BC82;
     margin-left:1%;
@@ -44,7 +52,7 @@ h1>a {
     text-shadow:1px 1px #ccc;
     font-size:1.25em;
 }
-
+*/
 
 footer {
     clear:both;
