@@ -1,5 +1,5 @@
 <?php include "includes/header.php";?>
 
-<h1>Flowchart</h1>
+<p>information will go here</p>
  
 <?php include "includes/footer.php";?>
