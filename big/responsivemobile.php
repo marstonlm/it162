@@ -1,4 +1,4 @@
-<?php include "../includes/header.php";?>
+<?php include "includes/header.php";?>
 
 
 
@@ -13,4 +13,4 @@
 </aside>
 <!-- END RIGHT COL -->
 
-<?php include "../includes/footer.php";?> 
+<?php include "includes/footer.php";?> 
