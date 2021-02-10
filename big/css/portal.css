@@ -1,0 +1,176 @@
+/* My WEB120 Portal Website Styles */
+
+/* --------Color Palette ----------
+#4E0250 - Russian Violet - Header/Footer
+#801A86 - Mardi Gras
+#645986 - Dark Blue Gray - Main Font Color
+#8FE388 - Light Green 
+#58BC82 - Medium Sea Green */
+
+/* ----------- Global Styles ----------- */
+html {
+    background-color:#ccc; 
+    box-sizing: border-box; 
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;    
+}
+
+main.wrapper {
+    background-color:#fff;
+    color: #343434;
+    margin: 0 auto;
+    padding: 0;
+    overflow:auto;
+}
+header {
+    background: #4E0250;
+    top: 0;
+    margin: 0;
+    color: #58BC82;
+}
+
+h1>a {
+    text-decoration: none;
+    color: #58BC82;
+}
+
+/* font awesome icon styles */
+i.logo {
+    color: darkred; /* a less boring color */
+    text-shadow: 1px 1px #ccc; /* give the icon a little depth */
+    font-size: 1.25em; /* font awesome icons are text, so make it a bit bitter */
+    margin-left: 1%; /* this keeps the icon from being squeezed to the left */
+}
+
+/* pre font awesome icon styles
+.logo {
+    color:#58BC82;
+    margin-left:1%;
+    margin-right: 1%;
+    text-shadow:1px 1px #ccc;
+    font-size:1.25em;
+}
+*/
+
+footer {
+    clear:both;
+    background-color: #fff; /* #4E0250, #fff */
+    color: *#58BC82; /*#58BC82 */
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+   main.wrapper {
+		width:80%;
+        padding: 10px;
+		margin:auto;
+	}
+
+    .section-main {
+		width:65%;
+        padding: 5px;
+		float:left;
+	}
+	
+     .aside-main {	
+		width:34%;
+        padding: 5px;
+		float:right;
+	}
+			
+    img.desktop {
+            float: left;
+       		width:25%;
+            border: 5px solid #4E0250;
+            margin: 10px; 
+            display:inline-block;
+    }
+    
+    img.tablet, img.phone {
+       	display:none;
+    	}  
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        		background-color: #645986;
+        		color:#000;
+   	 }
+}
+
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+	
+	section {
+		width:60%;
+		float:left;
+	}
+	
+	aside {	
+		width:39%;
+        padding: 3px;
+		float:right;
+	}
+	
+    img.tablet {
+       		width:100%;
+            padding: 1px;
+            border: 3px solid #4E0250;
+            display:inline-block;
+    }
+    
+    img.desktop, img.phone {
+       	display:none;
+    	}  
+    
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #645986;
+        color:#000;
+    }
+}
+
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    img.phone {
+       		width:100%;
+            border: 3px solid #4E0250;
+            margin: 5px;
+            display:inline-block;
+    }
+    
+    img.tablet, img.desktop {
+       	display:none;
+    	}  
+
+}
