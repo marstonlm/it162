@@ -20,12 +20,12 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 //die;
  
 switch(THIS_PAGE){
-	case '../index.php':
-		$title = "Luann's IT162 Web Portal";
+	case 'index.php':
+		$title = "Luann's IT162 Big Project";
 		$logo = 'fa-home';
-		$pageID = 'Welcome';
+		$pageID = 'Welcome to the Big Project';
 	break;
-
+/*
 	case 'index.php':
 		$title = "Luann's IT162 Big Project";
 		$logo = 'fa-home';
@@ -52,14 +52,13 @@ switch(THIS_PAGE){
 		$pageID = 'Flexbox';
 	break;
 
-
-
 	case 'contactme.php':
 		$title = "Luann's IT162 Contact Page";
 		$logo = 'fa-paper-plane-o';
 		$logo_color = ' style="color:#0f0"';
 		$pageID = 'Contact Luann';
 	break; 
+*/
 
 	default:
 		$title = THIS_PAGE;
@@ -67,6 +66,8 @@ switch(THIS_PAGE){
 		$logo_color = ''; // make logo_color an empty string by default
 		$pageID = ''; //no icon by default
 }
+
+/*commented out while debugging big index page
 
 // arry for navigation
 
@@ -92,7 +93,8 @@ $nav1['contactme.php'] = "Contact Luann";
 */
 
 
-
+/*
+Debugging big project index page
 function makeLinks($linkArray)
 {
     $myReturn = '';
@@ -109,6 +111,7 @@ function makeLinks($linkArray)
       
     return $myReturn;   
 } 
-
+ 
+*/
 
 ?>
