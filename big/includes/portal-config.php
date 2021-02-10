@@ -18,38 +18,41 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 //echo THIS_PAGE;
 
 //die;
-
+ 
 switch(THIS_PAGE){
-	case 'index.php':
-		$title = "Luann's IT162 Title Page";
+	case '../index.php':
+		$title = "Luann's IT162 Web Portal";
 		$logo = 'fa-home';
 		$pageID = 'Welcome';
 	break;
 
-	case 'big/index.php':
-		$title = "Luann's Big";
-		$logo = 'fa-universal-access';
-		$pageID = 'Big';
+	case 'index.php':
+		$title = "Luann's IT162 Big Project";
+		$logo = 'fa-home';
+		$pageID = 'Welcome';
 	break;
 
-	case 'aia.php':
-		$title = "AIA";
+	case 'responsivemoible.php':
+		$title = "Responsive vs Mobile";
 		$logo = 'fa-universal-access';
 		$logo_color = ' style="color:#00f"';
-		$pageID = 'Aia';
+		$pageID = 'Responsive vs Mobile';
 	break;
 
-	case 'flowchart.php':
-		$title = "Flowchart layout";
-		$logo = 'fa-pencil-square-o';
-		$pageID = 'Flowchart';
+	case 'galleries.php':
+		$title = "Luann's Galleries";
+		$logo = 'fa-universal-access';
+		$logo_color = ' style="color:#00f"';
+		$pageID = 'Galleries';
 	break;
 
-	case 'fp/index.php':
-		$title = "Luann's Final Project";
-		$logo = 'fa-pencil-square-o';
-		$pageID = 'Final Project';
+	case 'flexbox.php':
+		$title = "Flexbox Info";
+		$logo = 'fa-universal-access';
+		$pageID = 'Flexbox';
 	break;
+
+
 
 	case 'contactme.php':
 		$title = "Luann's IT162 Contact Page";
