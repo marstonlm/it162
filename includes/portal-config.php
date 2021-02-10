@@ -35,6 +35,7 @@ switch(THIS_PAGE){
 	case 'aia.php':
 		$title = "AIA";
 		$logo = 'fa-universal-access';
+		$logo_color = ' style="color:#00f"';
 		$pageID = 'Aia';
 	break;
 
@@ -58,7 +59,8 @@ switch(THIS_PAGE){
 
 	default:
 		$title = THIS_PAGE;
-		$logo = 'fa-home';
+		$logo = ''; //no icon by default
+		$logo_color = ''; // make logo_color an empty string by default
 		$pageID = ''; //no icon by default
 }
 
