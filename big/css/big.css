@@ -85,7 +85,8 @@ div.embed-container iframe {
 
 /* START RESPONSIVE STYLES */
 
- {
+/* DESKTOP */
+@media all and (min-width:1400px) {
   
    main.wrapper {
     width:80%;
