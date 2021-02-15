@@ -8,7 +8,7 @@
 #58BC82 - Medium Sea Green */
 
 /* ----------- Global Styles ----------- */
-html {
+html, body {
     background-color:#ccc; 
     box-sizing: border-box; 
 }
@@ -17,13 +17,28 @@ html {
   box-sizing: inherit;    
 }
 
-main.wrapper {
+main.wrapper, footer {
     background-color:#fff;
     color: #343434;
-    margin: 0 auto;
+    width:90%;
+    padding: 10px;
+    margin: auto;
     padding: 0;
     overflow:auto;
 }
+
+.section {
+    float:left;
+    width:64%;
+    padding-left: 2.5%;
+}
+
+.aside {  
+    float:right;
+    width:26%;
+    padding-right: 2.5%;
+}
+
 header {
     background: #4E0250;
     top: 0;
@@ -31,9 +46,28 @@ header {
     color: #58BC82;
 }
 
-h1>a {
+header h1 {
+    text-align: right;
     text-decoration: none;
     color: #58BC82;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-weight: normal;
+    padding: .5em;
+}
+
+p {
+    margin: 1em .8em;
+}
+
+footer p {
+    padding: 2em;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
 }
 
 /* font awesome icon styles */
@@ -44,25 +78,6 @@ i.logo {
     margin-left: 1%; /* this keeps the icon from being squeezed to the left */
 }
 
-/* pre font awesome icon styles
-.logo {
-    color:#58BC82;
-    margin-left:1%;
-    margin-right: 1%;
-    text-shadow:1px 1px #ccc;
-    font-size:1.25em;
-}
-*/
-
-footer {
-    clear:both;
-    background-color: #fff; /* #4E0250, #fff */
-    color: *#58BC82; /*#58BC82 */
-}
-
-footer p {
-    text-align: center;
-}
 
 /* Embed Responsively Rules! */
 div.embed-container {
@@ -85,26 +100,7 @@ div.embed-container iframe {
 
 /* START RESPONSIVE STYLES */
 
-/* DESKTOP */
-@media all and (min-width:1400px) {
   
-   main.wrapper {
-    width:80%;
-        padding: 10px;
-    margin:auto;
-  }
-
-    .section-main {
-    width:65%;
-        padding: 5px;
-    float:left;
-  }
-  
-     .aside-main {  
-    width:34%;
-        padding: 5px;
-    float:right;
-  }
       
     img.desktop {
             float: left;
@@ -123,7 +119,7 @@ div.embed-container iframe {
             background-color: #645986;
             color:#000;
      }
-}
+
 
 
 /* TABLET */
