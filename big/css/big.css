@@ -61,6 +61,12 @@ p {
     margin: 1em .8em;
 }
 
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    clear: both;
+}
+
 footer p {
     padding: 2em;
 }
