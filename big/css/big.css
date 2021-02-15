@@ -34,39 +34,21 @@ header {
 }
 
 section {
+    float:left;
     width:65%;
     padding: 5px;
-    float:left;
 }
 
-aside {  
+aside {
+    float:right;  
     width:34%;
     padding: 5px;
-    float:right;
 }
 
 h1>a {
     text-decoration: none;
     color: #58BC82;
 }
-
-/* font awesome icon styles */
-i.logo {
-    color: darkred; /* a less boring color */
-    text-shadow: 1px 1px #ccc; /* give the icon a little depth */
-    font-size: 1.25em; /* font awesome icons are text, so make it a bit bitter */
-    margin-left: 1%; /* this keeps the icon from being squeezed to the left */
-}
-
-/* pre font awesome icon styles
-.logo {
-    color:#58BC82;
-    margin-left:1%;
-    margin-right: 1%;
-    text-shadow:1px 1px #ccc;
-    font-size:1.25em;
-}
-*/
 
 footer {
     clear:both;
@@ -77,6 +59,15 @@ footer {
 footer p {
     text-align: center;
 }
+
+/* font awesome icon styles */
+i.logo {
+    color: darkred; /* a less boring color */
+    text-shadow: 1px 1px #ccc; /* give the icon a little depth */
+    font-size: 1.25em; /* font awesome icons are text, so make it a bit bitter */
+    margin-left: 1%; /* this keeps the icon from being squeezed to the left */
+}
+
 
 /* Embed Responsively Rules! */
 div.embed-container {
@@ -110,14 +101,10 @@ ul.topnav li a.selected {
 @media all and (max-width:736px) {
     
     img.phone {
-            width:100%;
-            border: 3px solid #4E0250;
-            margin: 5px;
             display:inline-block;
+            width:100%;
+            margin: 5px;
+            border: 3px solid #4E0250;
+            background-color: orange;
     }
-    
-    img.tablet, img.desktop {
-        display:none;
-        }  
-
 }
