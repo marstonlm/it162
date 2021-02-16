@@ -1,82 +1,58 @@
-/* My WEB120 Portal Website Styles */
+/* BIG WEB120 */
 
-/* --------Color Palette ----------
-#4E0250 - Russian Violet - Header/Footer
-#801A86 - Mardi Gras
-#645986 - Dark Blue Gray - Main Font Color
-#8FE388 - Light Green 
-#58BC82 - Medium Sea Green */
-
-/* ----------- Global Styles ----------- */
-html {
-    background-color:#ccc; 
-    box-sizing: border-box; 
+* {
+    margin:0;
+    padding:0;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;    
+html,body {
+    background-color:#d2b88f;
 }
 
-main.wrapper {
-    background-color:#fff;
-    color: #343434;
+main.wrapper,footer {
     width:90%;
-    padding: 0;
-    margin: 0 auto;
+    margin:auto;
+    background-color:#fff;
     overflow:auto;
-}
-
-header {
-    background: #4E0250;
-    top: 0;
-    margin: 0;
-    color: #58BC82;
 }
 
 section {
     float:left;
-    width:65%;
-    padding: 5px;
+    width:64%;
+    padding-left:2.5%;
 }
 
 aside {
-    float:right;  
-    width:34%;
-    padding: 5px;
+    float:right;
+    width:26%;
+    padding-right:2.5%;
 }
 
-h1>a {
-    text-decoration: none;
-    color: #58BC82;
+header h1 {
+    text-align:right;
 }
 
-footer {
-    clear:both;
-    background-color: #fff; /* #4E0250, #fff */
-    color: *#58BC82; /*#58BC82 */
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    padding:.5em;
 }
 
-footer p {
-    text-align: center;
+p {
+    margin:1em .8em;
 }
 
-/* font awesome icon styles */
-i.logo {
-    color: darkred; /* a less boring color */
-    text-shadow: 1px 1px #ccc; /* give the icon a little depth */
-    font-size: 1.25em; /* font awesome icons are text, so make it a bit bitter */
-    margin-left: 1%; /* this keeps the icon from being squeezed to the left */
+div.dot iframe {
+    border:0;
+    overflow:no;
 }
 
-
-/* Embed Responsively Rules! */
+/* START Global Embed Responsively Rules! */
 div.embed-container {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    margin: auto;
-    max-width: 98%;
+    max-width: 100%;
 } 
 
 div.embed-container iframe {
@@ -87,24 +63,48 @@ div.embed-container iframe {
     height: 100%;
 }
 
-
-/* START RESPONSIVE STYLES */
-    
-/* Change background color of navigation on selected page */
-ul.topnav li a.selected {
-    background-color: #645986;
-    color:#000;
+div.embed-container.agenda-view {
+    display:none;
 }
 
+/* END Global Embed Responsively Rules! */
 
-/* PHONE */
-@media all and (max-width:736px) {
+footer {
+    text-align:center;
+    text-transform:uppercase;
+    clear:both;
+}
+
+footer p {
+    padding:2em;
+}
+
+footer a {
+    color:red;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:white;
+    background-color:black;
+}
     
-    img.phone {
-            display:inline-block;
-            width:100%;
-            margin: 5px;
-            border: 3px solid #4E0250;
-            background-color: orange;
+
+/* Phat PHONE Rules! */
+@media all and (max-width:860px) {
+    div.wrapper {
+        background-color:blue;
+    }
+    
+    /* Show Agenda View Calendar */
+    div.embed-container.agenda-view {
+        display:block;
+    }
+    
+    /* Hide Month View Calendar */
+    div.embed-container.month-view {
+        display:none;
     }
 }
+
+

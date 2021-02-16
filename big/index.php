@@ -1,68 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head> 
-	<title>IT 162 - BIG Project by Luann</title>
+
+<!doctype html>
+<html>
+<head>
+	<title>Web Dev Examples by Sara Newman</title>
 	<meta name="viewport" content="width=device-width" />
 	<meta name="robots" content="noindex,nofollow" />
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/nav.css" />
 	<link rel="stylesheet" href="css/big.css" />
 	<link rel="stylesheet" href="css/form.css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=VXbXZw-Ec1a1xlQzUfe7XAq3VAgm2lnRGd9iu4hUQZadtiBk_CiO6KntnuDv5zHN5yH_GdLWF6R-y9HSTeAe8g" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly93ZWItc3R1ZGVudHMuY29tL3dlYjEyMC9iaWcvaW5kZXgucGhw"/><script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
 	<script src="js/script.js"></script>
 </head>
 
 <body>
-<!-- START WRAPPER -->
-<main class="wrapper">
-<header>
-  <h1><i class="logo fa fa-home"></i>Web Dev Project 'BIG' by Luann</h1>
-  <nav id="cssmenu">
-	  <ul>
-	     <li><a href="../index.php"><span><i class="fa fa-fw fa-bank"></i> WEB120</span></a></li>
-	     <li><a href="index.php"><span><i class="fa fa-fw fa-home"></i> BIG</span></a></li>
-	     <li><a href="flexbox.php"><span><i class="fa fa-fw fa-cube"></i> Flexbox</span></a></li>
-	     <li><a href="galleries.php"><span><i class="fa fa-fw fa-camera-retro"></i> Galleries</span></a></li>
-	     <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i> Google</span></a>
-	        <ul>
-	           <li><a href="calendar.php"><span><i class="fa fa-fw fa-calendar"></i> Calendar</span></a></li>
-	           <li><a href="map.php"><span><i class="fa fa-fw fa-map-o"></i> Map</span></a></li>
-	           <li><a href="youtube.php"><span><i class="fa fa-fw fa-youtube-square"></i> YouTube</span></a></li>
-	        </ul>
-	     </li>
-	     <li><a href="siteapp.php"><span><i class="fa fa-fw fa-html5"></i> Site vs App</span></a></li>
-	     <li><a href="webcam.php"><span><i class="fa fa-fw fa-eye"></i> Web Cam</span></a></li>
-	  </ul>
-  </nav>
-</header>
-        
-<!-- START LEFT COL -->
-<section>
- <h2 class="pageID">Client Questionnaire</h2>
-	<p>Develop and place an updated version of the "multiple.php" contact form (located in your web120 includes folder) on this main page. Adjust its fields to ask the basic questions you'd always need to ask any client to help determine if you can help them with their website needs.</p>
-	<form>add multiple.php client form here.</form>
+	<!-- START Wrapper -->
+	<div class="wrapper">
+		<header>
+			<h1><a href="index.php"><i class="logo fa fa-home"></i>Sara Newman's Web Dev Examples</a></h1>
+			<nav id="cssmenu">
+				<ul>
+					<li><a href="../index.php"><span><i class="fa fa-fw fa-bank"></i> WEB120 Portal</span></a></li>
+					<li><a href="index.php"><span><i class="fa fa-fw fa-home"></i> Home</span></a></li>
+					<li><a href="flexbox.php"><span>Flexbox</span></a></li>
+					<li><a href="galleries.php"><span>Galleries</span></a></li>
+					<li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i> Google</span></a>
+						<ul>
+							<li><a href="map.php"><span>Map</span></a></li>
+							<li><a href="calendar.php"><span>Calendar</span></a></li>
+							<li><a href="youtube.php"><span>YouTube</span></a></li>
+						</ul>
+					</li>
+					<li><a href="parallax.php"><span>Parallax</span></a></li>
+					<li><a href="shoppingcarts.php"><span>Shopping Carts</span></a></li>
+					<li><a href="siteapp.php"><span>Site vs App</span></a></li>
+					<li><a href="webcam.php"><span>Web Cam</span></a></li>
+				</ul>
+			</nav>
+		</header>
 
-</section>
-<!-- END LEFT COL -->
+		<!-- START LEFT COL -->
+		<section>
+			<h2 class="pageID">Client Questionnaire</h2>
+			<p>Develop and place an updated version of the "multiple.php" contact form (located in your web120 includes folder) on this main page. Adjust its fields to ask the basic questions you'd always need to ask any client to help determine if you can help them with their website needs.</p>
+			<form>add multiple.php client form here</form>
+		</section>
+		<!-- END LEFT COL -->
 
-<!-- START RIGHT COL -->
-<aside>
-<h2>Basic Website Design Cycle</h2>
-	<p>Provide at least 3 (linked) resources that help you and/or your web team with steps found in very basic website design and development cycle. For example, client surveys, wireframing tools, etc.</p>
-	<p>Here's a website to help get you started, <a href="https://business.tutsplus.com/articles/how-to-extract-the-facts-with-a-web-design-client-questionnaire--fsw-1830" target=" top">25 Best Questions for Successful Web Design Questionnaires</a></p>
-</aside>
-<!-- END RIGHT COL -->
-
-<!-- START Footer -->
-<footer>
-  <p><small>&copy; 2018 - <?=date('Y')?> by <a href="contactme.php" target="_blank">Luann Marston</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
-</footer>
-<!-- END Footer --> 
-
-</main>
-<!-- END WRAPPER -->
-
+		<!-- START RIGHT COL -->
+		<aside>
+			<h3>Basic Website Design Cycle</h3>
+			<p>Provide at least 3 (linked) resources that help you and/or your web team with steps found in very basic website design and development cycle. For example, client surveys, wireframing tools, etc.</p>
+			<p>Here's a website to help get you started, <a href="https://business.tutsplus.com/articles/how-to-extract-the-facts-with-a-web-design-client-questionnaire--fsw-1830" target="_top">https://business.tutsplus.com/articles/...</a></p>
+		</aside>
+		<!-- END RIGHT COL -->
+		<!-- START Footer -->
+		<footer>
+			<p><small>&copy; 2016 - 2021 by <a href="#" target="_blank">Sara Newman</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+		</footer>
+		<!-- END Footer --> 
+	</div>
+	<!-- END Wrapper -->
 </body>
 </html>
