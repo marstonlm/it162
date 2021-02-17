@@ -1,16 +1,13 @@
-<?php include "../includes/header.php";?>
+<?php include "includes/header.php";?>
+<p>Flexbox section</p>
 
-
-
-	<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
-<p> flexbox in the works </p>
 </section>
 <!-- END LEFT COL -->
 
 <!-- START RIGHT COL -->
 <aside>
-<p>in the works</p>
+	<h3>Flexbox aside</h3>
+	<p>Flexbox aside</p>
 </aside>
 <!-- END RIGHT COL -->
-
-<?php include "../includes/footer.php";?> 
+<?php include "includes/footer.php";?>
