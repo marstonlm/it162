@@ -47,7 +47,7 @@ switch(THIS_PAGE){
 		$title = "Galleries Research";
 		$logo = 'fa-universal-access';
 		$logo_color = ' style="color:#00f"';
-		$pageID = 'Galleries Research';
+		$pageID = 'Are Sliding Galleries The Only Option?';
 	break;
 
 	case 'map.php':
