@@ -65,7 +65,7 @@ switch(THIS_PAGE){
 	case 'youtube.php':
 		$title = "Youtube";
 		$logo = 'fa-pencil-square-o';
-		$pageID = 'Y2021 Top Web Development Trends';
+		$pageID = '2021 Top Web Development Trends';
 	break;
 
 	case 'siteapp.php':
