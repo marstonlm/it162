@@ -1,18 +1,28 @@
-/* BIG WEB120 */
+/* BIG IT162 */
 
+/* --------Color Palette ---------- 
+#3b1f2b - Dark Purple  
+#c73e1d - Vermilion
+#2D4654 - Charcoal
+#FFFFFC - Baby Powder
+#6CCFF6 - Baby Blue     
+
+/* --------- Global Styles --------- */
 * {
     margin:0;
     padding:0;
 }
 
 html,body {
-    background-color:#d2b88f;
+    background-color:#2D4654;
+    padding-top: 12px;
 }
 
-main.wrapper,footer {
-    width:90%;
+main.wrapper {
+    width: 90%;
     margin:auto;
-    background-color:#fff;
+    background-color:#2D4654;
+    color: #FFFFFC;
     overflow:auto;
 }
 
@@ -28,17 +38,47 @@ aside {
     padding-right:2.5%;
 }
 
+header {
+    width: 90%
+    margin: auto;
+    background-color: #2D4654;
+    color: #FFFFFC;
+}
+
 header h1 {
     text-align:right;
+    padding-right: 2.5%;
+    color: #a23b72;
+}
+
+header a {
+    color: #c73e1d;
+    text-decoration: none;
+}
+
+header a:hover {
+    color:white;
+    background-color: #c73e1d;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
     padding:.5em;
+    color: #FFFFFC;
 }
 
 p {
     margin:1em .8em;
+    color: FFFFFC;
+}
+
+a {
+    color: #c73e1d;
+}
+
+a:hover {
+    color:white;
+    background-color: #c73e1d;
 }
 
 main.dot iframe {
@@ -70,30 +110,34 @@ main.embed-container.agenda-view {
 /* END Global Embed Responsively Rules! */
 
 footer {
+    margin: auto;
     text-align:center;
     text-transform:uppercase;
     clear:both;
+    background-color:#2D4654;
+    overflow:auto;
 }
 
 footer p {
     padding:2em;
+    color: #FFFFFC;
 }
 
 footer a {
-    color:red;
+    color: #c73e1d;
     text-decoration: none;
 }
 
 footer a:hover {
     color:white;
-    background-color:black;
+    background-color: #c73e1d;
 }
     
 
 /* Phat PHONE Rules! */
-@media all and (max-width:860px) {
+@media all and (max-width:700px) {
     main.wrapper {
-        background-color:blue;
+        background-color: black;
     }
     
     /* Show Agenda View Calendar */
