@@ -71,7 +71,7 @@ switch(THIS_PAGE){
 	case 'siteapp.php':
 		$title = "Site vs App Research";
 		$logo = 'fa-pencil-square-o';
-		$pageID = 'Responsiver Site vs Native App Research';
+		$pageID = 'Is a Responsive Website More Important than a Mobile App?';
 	break;
 
 	case 'webcam.php':
