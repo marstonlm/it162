@@ -1,15 +1,17 @@
 <?php include "includes/header.php";?>
 
 
-
-	<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
-<p> responsive vs mobile in the works </p>
+<p>Copy and paste my Responsive Website v.s. Native Applications research and citations to this page when ready.</p>
 </section>
 <!-- END LEFT COL -->
 
 <!-- START RIGHT COL -->
 <aside>
-<p>in the works</p>
+	<h3>Citations</h3>
+	<p>Citations could go here</p>
+	<p>Citations could go here</p>
+	<p>Citations could go here</p>
+	<p>Citations could go here</p>
 </aside>
 <!-- END RIGHT COL -->
 
