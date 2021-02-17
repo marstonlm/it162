@@ -81,6 +81,30 @@ a:hover {
     background-color: #c73e1d;
 }
 
+footer {
+    margin: auto;
+    text-align:center;
+    text-transform:uppercase;
+    clear:both;
+    background-color:#2D4654;
+    overflow:auto;
+}
+
+footer p {
+    padding:2em;
+    color: #FFFFFC;
+}
+
+footer a {
+    color: #c73e1d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:white;
+    background-color: #c73e1d;
+}
+
 main.dot iframe {
     border:0;
     overflow:no;
@@ -109,29 +133,7 @@ main.embed-container.agenda-view {
 
 /* END Global Embed Responsively Rules! */
 
-footer {
-    margin: auto;
-    text-align:center;
-    text-transform:uppercase;
-    clear:both;
-    background-color:#2D4654;
-    overflow:auto;
-}
 
-footer p {
-    padding:2em;
-    color: #FFFFFC;
-}
-
-footer a {
-    color: #c73e1d;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color:white;
-    background-color: #c73e1d;
-}
     
 
 /* Phat PHONE Rules! */
