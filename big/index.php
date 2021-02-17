@@ -10,14 +10,14 @@
 	<link rel="stylesheet" href="css/big.css" />
 	<link rel="stylesheet" href="css/form.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=VXbXZw-Ec1a1xlQzUfe7XAq3VAgm2lnRGd9iu4hUQZadtiBk_CiO6KntnuDv5zHN5yH_GdLWF6R-y9HSTeAe8g" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly93ZWItc3R1ZGVudHMuY29tL3dlYjEyMC9iaWcvaW5kZXgucGhw"/><script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
 	<script src="js/script.js"></script>
 </head>
 
 <body>
 	<!-- START Wrapper -->
-	<div class="wrapper">
+	<main class="wrapper">
 		<header>
 			<h1><a href="index.php"><i class="logo fa fa-home"></i>BIG Project by Luann Marston</a></h1>
 			<nav id="cssmenu">
@@ -59,7 +59,7 @@
 			<p><small>&copy;<?=date('Y')?> <a href="#" target="_blank">Luann Marston</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
 		</footer>
 		<!-- END Footer --> 
-	</div>
+	</main>
 	<!-- END Wrapper -->
 </body>
 </html>
