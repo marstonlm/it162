@@ -1,8 +1,8 @@
 <?php include "includes/header.php";?>
-	
-	<div class="embed-container">
-		Iframe in a responsive YouTube video that supports my sub header.
-	</div>
+<div class='embed-container'>
+	<iframe src='https://www.youtube.com/embed/QVCuFZM0jWA' frameborder='0' allowfullscreen></iframe>
+</div>
+
 </section>
 <!-- END LEFT COL -->
 
