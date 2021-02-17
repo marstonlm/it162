@@ -6,8 +6,8 @@
 #2D4654 - Charcoal
 #FFFFFC - Baby Powder
 #6CCFF6 - Baby Blue     
+*/
 
-/* --------- Global Styles --------- */
 * {
     margin:0;
     padding:0;
@@ -136,9 +136,7 @@ footer a:hover {
 
 /* Phat PHONE Rules! */
 @media all and (max-width:700px) {
-    main.wrapper {
-        background-color: black;
-    }
+
     
     /* Show Agenda View Calendar */
     main.embed-container.agenda-view {

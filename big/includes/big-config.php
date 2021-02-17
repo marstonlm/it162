@@ -1,8 +1,8 @@
 <?
 /*
-portal-config.php 
+big-config.php 
 
-Use to store all of our IT 162 configuration info
+Use to store all of our IT 162 BIG project configuration info
 
 */
 //prevents data from being sent early
