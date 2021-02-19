@@ -141,12 +141,12 @@ main.dot iframe {
 
     
     /* Show Agenda View Calendar */
-    main.embed-container.agenda-view {
+    .embed-container.agenda-view {
         display:block;
     }
     
     /* Hide Month View Calendar */
-    main.embed-container.month-view {
+    .embed-container.month-view {
         display:none;
     }
 }
