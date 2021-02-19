@@ -18,6 +18,7 @@ html,body {
     padding-top: 12px;
 }
 
+/*
 main.wrapper {
     width: 90%;
     margin:auto;
@@ -37,6 +38,7 @@ aside {
     width:26%;
     padding-right:2.5%;
 }
+*/
 
 header {
     width: 90%
@@ -110,6 +112,7 @@ main.dot iframe {
     overflow:no;
 }
 
+
 /* START Global Embed Responsively Rules! */
 .embed-container {
     position: relative;
@@ -137,7 +140,7 @@ main.dot iframe {
     
 
 /* Phat PHONE Rules! */
-@media all and (max-width:700px) {
+@media all and (max-width:736px) {
 
     
     /* Show Agenda View Calendar */
@@ -152,3 +155,77 @@ main.dot iframe {
 }
 
 
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+
+     main.wrapper {
+        width: 90%;
+        margin:auto;
+        background-color:#2D4654;
+        color: #FFFFFC;
+        overflow:auto;
+    }
+
+    section {
+        float:left;
+        width:64%;
+        padding-left:2.5%;
+    }
+
+    aside {
+        float:right;
+        width:26%;
+        padding-right:2.5%;
+    }
+}
+
+    /* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+    
+     main.wrapper {
+        width: 90%;
+        margin:auto;
+        background-color:#2D4654;
+        color: #FFFFFC;
+        overflow:auto;
+    }
+
+    section {
+        float:left;
+        width:64%;
+        background-color:#2D4654;
+        color: #FFFFFC;
+        padding-left:2.5%;
+    }
+
+    aside {
+        float:right;
+        width:26%;
+        background-color:#2D4654;
+        color: #FFFFFC;
+        padding-right:2.5%;
+    }
+}
+
+/* PHONE */
+@media all and (max-width:736px) {
+    main.wrapper {
+        background-color: #2D4654;
+        color:#FFFFFC;
+    }
+    
+    img.phone {
+            width:100%;
+            border: 3px solid #4E0250;
+            margin: 5px;
+            display:inline-block;
+    }
+    
+    img.tablet, img.desktop {
+        display:none;
+        }  
+
+}
+/* END RESPONSIVE STYLES */
