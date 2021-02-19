@@ -21,7 +21,10 @@
 <!-- START RIGHT COL -->
 <aside>
 	<h3>50th Annual Northwest Folklife Festival</h3>
-	<p>Put web address and event info here</p>
+	<p>When: May 28th-31st</p>	
+	<p>A community-powered celebration of the music, arts, and heritage of the Pacific Northwest. With over 6,000 performers on 20+ stages, 200 food/craft/import vendors, and 500 volunteers, the <a href="https://www.nwfolklife.org/festival/home.html">Northwest Folklife Festival</a>remains one of the largest access-for-all festivals in the nation since 1972.</p>
+	<p>Northwest Folklife’s 2021 Cultural Focus 50 Years of Northwest Folklife: A Look Back, A Look Ahead celebrates the milestone anniversary of 50 years of stories, songs, and traditions of the Pacific Northwest region with a year-long, community celebration. As we look towards a half-century mark, we celebrate the ways in which folklife is a part of each of our lives - past, present, and future. These stories are the powerful expressions of culture, that strengthen us as a community by connecting us to our roots, grounding us firmly in the present, and supplying us with a sense of identity and purpose for a future, together.</p>
+	<p>May 28th-31st</p>
 </aside>
 <!-- END RIGHT COL -->
 <?php include "includes/footer.php";?>
