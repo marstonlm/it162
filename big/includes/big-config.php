@@ -26,7 +26,7 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
 switch(THIS_PAGE){
 	case '../index.php':
-		$title = "IT 162 Portlal";
+		$title = "IT 162 Portal";
 		$logo = 'fa-home';
 		$pageID = 'Home';
 	break;
@@ -39,13 +39,13 @@ switch(THIS_PAGE){
 
 	case 'flexbox.php':
 		$title = "Flexbox Research";
-		$logo = 'fa-universal-access';
+		$logo = 'fa-pencil-square-o';
 		$pageID = 'Flexbox Research';
 	break;
 
 	case 'galleries.php':
 		$title = "Galleries Research";
-		$logo = 'fa-universal-access';
+		$logo = 'fa-pencil-square-o';
 		$logo_color = ' style="color:#00f"';
 		$pageID = 'Are Sliding Galleries The Only Option?';
 	break;
@@ -65,7 +65,7 @@ switch(THIS_PAGE){
 	case 'youtube.php':
 		$title = "Youtube";
 		$logo = 'fa-pencil-square-o';
-		$pageID = '2021 Top Web Development Trends';
+		$pageID = 'Web Accessibility';
 	break;
 
 	case 'siteapp.php':
@@ -78,7 +78,7 @@ switch(THIS_PAGE){
 		$title = "Live Web Cameras";
 		$logo = 'fa-paper-plane-o';
 		$logo_color = ' style="color:#0f0"';
-		$pageID = 'Live Web Cameras';
+		$pageID = 'Kitten Academy Live Stream';
 	break; 
 
 	default:
