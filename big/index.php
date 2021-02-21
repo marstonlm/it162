@@ -1,6 +1,23 @@
 <?php include "includes/header.php";?>
 <p>Develop and place an updated version of the "multiple.php" contact form (located in your web120 includes folder) on this main page. Adjust its fields to ask the basic questions you'd always need to ask any client to help determine if you can help them with their website needs.</p>
-<form>add multiple.php client form here</form>
+
+<!-- START CLIENT FORM -->
+<div>
+		<?php
+
+		include 'includes/contact_include.php'; #site keys & code here
+
+		$toAddress = "luann.webster@seattlecentral.edu";  //place your/your client's email address here
+		$toName = "Luann Marston"; //place your client's name here
+		$website = "Luann's BIG Project";  //place NAME of your client's website
+
+		//echo 
+		echo loadContact('multiple.php');#
+
+		?>
+	</div>
+<!-- END CLIENT FORM -->
+
 </section>
 <!-- END LEFT COL -->
 
