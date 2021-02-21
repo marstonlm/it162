@@ -9,9 +9,9 @@
 <!-- START RIGHT COL -->
 <aside>
 	<h3>WA DOT: White Pass Cam</h3>
-	<div class="embed-container">
-		<meta http-equiv="refresh" content="30">
-		<iframe src='https://images.wsdot.wa.gov/sc/012vc15095.jpg' title="Traffic Cam of White Pass" frameborder='0' allowfullscreen></iframe>	
+	<div>
+		<!--<meta http-equiv="refresh" content="30"> -->
+		<iframe src='https://images.wsdot.wa.gov/sc/012vc15095.jpg' title="Traffic Cam of White Pass" frameborder='0' width="320px" height="261" allowfullscreen></iframe>	
 	</div>
 </aside>
 <!-- END RIGHT COL -->
