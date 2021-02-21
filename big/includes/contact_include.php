@@ -36,11 +36,11 @@
  * After testing, change the variable $sendEmail to TRUE to send email.
  *
  * @package nmCAPTCHA2
- * @author Bill Newman <williamnewman@gmail.com>
+ * @author Luann Marston <luann.webster@seattlecentral.edu>
  * @version 2 2019/10/13
- * @link http://www.newmanix.com/
+ * @link http://www.luannmarston.com/
  * @license http://www.apache.org/licenses/LICENSE-2.0
- * @see simple.php  
+ * @see multiple.php  
  * @see ReCaptcha.php   
  * @todo none
  */
