@@ -31,8 +31,7 @@
         </label>
     </div>
 
-
-
+    <!-- Services Interested In -->
     <div>	
         <fieldset>
             <legend>What Services Are You Interested In?</legend>
@@ -79,33 +78,47 @@
         </fieldset>
     </div>
 
-<!-- Purpose -->
+    <!-- Purpose -->
+    <div>
+        <fieldset>        
+            <legend>Goals</legend>
             <label>
-                What is the goal of your website?<br /><textarea name="Goal_of_website" cols="36" rows="4" placeholder="What is the goal of your website? ie: sell product, provide content, recruit employees..." tabindex="60"></textarea>
+                What is the goal of your website?<textarea name="Goal_of_website" cols="36" rows="4" placeholder="example: sell product, provide content, recruit employees..." tabindex="60"></textarea>
             </label>
+        </fieldset>
+    </div>
 
     <!-- Reference Websites -->
     <div>   
         <fieldset>
             <legend>What are 2 or 3 reference websites that you like?</legend><br />
             <label>
-                Name of Website: <br /><input type="text" name="Company_Name" required="required" placeholder="Reference Website Name" title="Reference Website Name" tabindex="10" size="44" autofocus />
+                Name of Website: <br /><input type="text" name="Company_Name" placeholder="Reference Website Name" title="Reference Website Name" tabindex="10" size="44" autofocus />
             </label>
             <label>
                 URL of Website: <br /><input type="url" name="Reference_URL" placeholder="https://" title="Reference Website URL" tabindex="10" size="44" /> <br />
-            </label><br />
+            </label>
             <label>
-                Name of Website: <br /><input type="text" name="Company_Name" required="required" placeholder="Reference Website Name" title="Reference Website Name" tabindex="10" size="44" autofocus />
+                What do you like or dislike about the site?<textarea name="Goal_of_website" cols="36" rows="4" placeholder="navigation, layout ..." tabindex="60"></textarea>
+            </label><br /><br />
+            <label>
+                Name of Website: <br /><input type="text" name="Company_Name" placeholder="Reference Website Name" title="Reference Website Name" tabindex="10" size="44" autofocus />
             </label>
             <label>
                 URL of Website: <br /><input type="url" name="Reference_URL" placeholder="https://" title="Reference Website URL" tabindex="10" size="44" /> <br />
-            </label><br />
+            </label>
             <label>
-                Name of Website :<br /><input type="text" name="Company_Name" required="required" placeholder="Reference Website Name" title="Reference Website Name" tabindex="10" size="44" autofocus />
+                What do you like or dislike about the site?<textarea name="Goal_of_website" cols="36" rows="4" placeholder="navigation, layout ..." tabindex="60"></textarea>
+            </label><br /><br />
+            <label>
+                Name of Website: <br /><input type="text" name="Company_Name" placeholder="Reference Website Name" title="Reference Website Name" tabindex="10" size="44" autofocus />
             </label>
             <label>
                 URL of Website: <br /><input type="url" name="Reference_URL" placeholder="https://" title="Reference Website URL" tabindex="10" size="44" /> <br />
-            </label><br />
+            </label>
+            <label>
+                What do you like or dislike about the site?<textarea name="Goal_of_website" cols="36" rows="4" placeholder="navigation, layout ..." tabindex="60"></textarea>
+            </label><br /><br />
         </fieldset>
     </div>
 
@@ -114,12 +127,13 @@
         <fieldset>
             <legend>What pages do you need on your website?</legend>
             <input type="checkbox" name="What_Pages_Need[]" value="Home" /> Home <br />
-            <input type="checkbox" name="What_Pages_Need[]" value="About" /> About <br />
+            <input type="checkbox" name="What_Pages_Need[]" value="About" /> About Us <br />
             <input type="checkbox" name="What_Pages_Need[]" value="Services" /> Services <br />
             <input type="checkbox" name="What_Pages_Need[]" value="Products" /> Products <br />
             <input type="checkbox" name="What_Pages_Need[]" value="FAQ" /> FAQ <br />
             <input type="checkbox" name="What_Pages_Need[]" value="Testimonials" /> Testimonials <br />  <input type="checkbox" name="What_Pages_Need[]" value="Contact" /> Contact <br />
             <input type="checkbox" name="What_Pages_Need[]" value="Privacy Policy" /> Privacy Policy <br />
+            <input type="checkbox" name="What_Pages_Need[]" value="Contact" /> Search My Website <br />
             <input type="checkbox" name="What_Pages_Need[]" value="Other" /> Other <br />            
         </fieldset>
     </div>
@@ -135,11 +149,16 @@
             <input type="checkbox" name="What_features_Need[]" value="Newsletter Signup" /> Newsletter Signup <br />
 
             <input type="checkbox" name="What_features_Need[]" value="Media Gallery" /> Media Gallery <br />
+            <input type="checkbox" name="What_features_Need[]" value="Events Calendar" /> Events Calendar <br />
             <input type="checkbox" name="What_features_Need[]" value="Blog" /> Blog <br />
+            <input type="checkbox" name="What_features_Need[]" value="Search My Website" /> Search My Website <br />
             <input type="checkbox" name="What_features_Need[]" value="Contact Form" /> Contact Form <br />
             <input type="checkbox" name="What_features_Need[]" value="Mobile-Ready Version" /> Mobile-Ready Version <br />
             <input type="checkbox" name="What_features_Need[]" value="FAQ" /> FAQ <br />
-            <input type="checkbox" name="What_features_Need[]" value="Other" /> Other <br />
+            <input type="checkbox" name="What_features_Need[]" value="Other" /> Other: <br />
+            <label>
+                <textarea type="text" name="Other_Features" cols="36" rows="4" placeholder="Please list features not listed" title="Additional Features Needed" tabindex="60"></textarea><br />
+            </label><br />
         </fieldset>
     </div>
 

@@ -1,8 +1,20 @@
 /* section style */
 
-
+/* --------Color Palette ---------- 
+#3b1f2b - Dark Purple -- rgba(59,31,43,1)  
+#c73e1d - Vermilion -- rgba(199,62,29,1)
+#2D4654 - Charcoal -- rgba(45,70,84,1)
+#FFFFFC - Baby Powder -- rgba(255,255,252,1)
+#6CCFF6 - Baby Blue -- rgba(108,207,246,1)  
+*/
 
 /* start reCAPTCHA styles */
+form {
+  margin-bottom: 5%;
+  padding: 1%;
+  border:5px solid rgba(59,31,43,.75);
+  background: rgba(59,31,43,.15);
+}
 
 form>div {
   margin:1em;
@@ -34,6 +46,7 @@ input[type="submit"], input[type="button"] {
 }
 
 fieldset {
+  padding-left: 15px;
   border: 1px solid #ccc;
   max-width: 350px;
 }

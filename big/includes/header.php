@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="css/form.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 </head>
-
+ 
 <body>
 	<!-- START Wrapper -->
 	<main class="wrapper">
@@ -22,11 +22,11 @@
 			<h1><a href="index.php"><i class="logo fa <?=$logo?>"></i>BIG Project by Luann Marston</a></h1>
 			<nav id="cssmenu">
 				<ul>
-					<li><a href="../index.php"><span><i class="fa fa-fw fa-bank"></i> IT162 Portal</span></a></li>
-					<li><a href="index.php"><span><i class="fa fa-fw fa-home"></i> Home</span></a></li>
-					<li><a href="flexbox.php"><span>Flexbox</span></a></li>
+					<li><a href="../index.php"><span><i class="logo fa <?=$logo?>"></i></i> IT162 Portal</span></a></li>
+					<li><a href="index.php"><span><i class="logo fa <?=$logo?>"></i>Home</span></a></li>
+					<li><a href="flexbox.php"><span><i class="logo fa <?=$logo?>"></i>Flexbox</span></a></li>
 					<li><a href="galleries.php"><span>Galleries</span></a></li>
-					<li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i> Google</span></a>
+					<li><a href="#"><span><i class="logo fa <?=$logo?>"></i>Google</span></a>
 						<ul>
 							<li><a href="map.php"><span>Map</span></a></li>
 							<li><a href="calendar.php"><span>Calendar</span></a></li>

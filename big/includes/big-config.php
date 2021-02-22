@@ -22,7 +22,7 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
 //echo THIS_PAGE;
 
-//die;
+//die; 
 
 switch(THIS_PAGE){
 	case '../index.php':
@@ -64,7 +64,7 @@ switch(THIS_PAGE){
 
 	case 'youtube.php':
 		$title = "Youtube";
-		$logo = 'fa-pencil-square-o';
+		$logo = 'fab fa-accessible-icon';
 		$pageID = 'Web Accessibility';
 	break;
 

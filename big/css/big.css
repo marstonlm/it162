@@ -1,11 +1,11 @@
 /* BIG IT162 */
 
 /* --------Color Palette ---------- 
-#3b1f2b - Dark Purple  
-#c73e1d - Vermilion
-#2D4654 - Charcoal
-#FFFFFC - Baby Powder
-#6CCFF6 - Baby Blue     
+#3b1f2b - Dark Purple -- rgba(59,31,43,1)  
+#c73e1d - Vermilion -- rgba(199,62,29,1)
+#2D4654 - Charcoal -- rgba(45,70,84,1)
+#FFFFFC - Baby Powder -- rgba(255,255,252,1)
+#6CCFF6 - Baby Blue -- rgba(108,207,246,1)  
 */
 
 * {
@@ -14,8 +14,8 @@
 }
 
 html,body {
-    background-color:#2D4654;
-    padding-top: 12px;
+    margin:0;
+    padding:0;
 }
 
 /*
@@ -41,14 +41,15 @@ aside {
 */
 
 header {
-    width: 90%
+    width: 100%
     margin: auto;
-    background-color: #2D4654;
+    background-color:rgba(59,31,43,1);
     color: #FFFFFC;
+    text-align: center;
 }
 
 header h1 {
-    text-align:right;
+    text-align:center;
     padding-right: 2.5%;
     color: #a23b72;
 }
@@ -66,12 +67,16 @@ header a:hover {
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
     padding:.5em;
-    color: #FFFFFC;
+    color: #2D4654;
+}
+
+h3 {
+    border-bottom: 2px solid #3b1f2b;
 }
 
 p {
     margin:1em .8em;
-    color: FFFFFC;
+    color: black;
 }
 
 a {
@@ -83,18 +88,27 @@ a:hover {
     background-color: #c73e1d;
 }
 
+section ul{
+    padding-left: 7%;
+}
+
+aside ul {
+    padding-left: 7%;
+}
+
 footer {
+    width: 100%;
     margin: auto;
     text-align:center;
     text-transform:uppercase;
     clear:both;
-    background-color:#2D4654;
+    background-color:rgba(59,31,43,1);
     overflow:auto;
 }
 
 footer p {
     padding:2em;
-    color: #FFFFFC;
+    color: #6CCFF6;
 }
 
 footer a {
@@ -161,23 +175,29 @@ main.dot iframe {
 @media all and (min-width:1400px) {
 
      main.wrapper {
-        width: 90%;
+        width: 100%;
         margin:auto;
-        background-color:#2D4654;
-        color: #FFFFFC;
+        background-color:rgba(45,70,84,.15);
+        color: black;
         overflow:auto;
     }
 
     section {
         float:left;
-        width:64%;
-        padding-left:2.5%;
+        width:59%;
+        padding-left:7.5%;
+        background-color:white;
     }
 
     aside {
         float:right;
-        width:26%;
-        padding-right:2.5%;
+        width:21%;
+        padding-right:7.5%;
+        background-color:white;
+    }
+
+    aside h3{
+        border-bottom: 2px solid #3b1f2b;
     }
 }
 
@@ -185,34 +205,34 @@ main.dot iframe {
 @media all and (min-width:737px) and (max-width:1399px) {
     
      main.wrapper {
-        width: 90%;
+        width: 100%;
         margin:auto;
-        background-color:#2D4654;
-        color: #FFFFFC;
+        background-color:white;
+        color: black;
         overflow:auto;
     }
 
     section {
         float:left;
-        width:64%;
-        background-color:#2D4654;
-        color: #FFFFFC;
-        padding-left:2.5%;
+        width:59%;
+        padding-left:7.5%;
     }
 
     aside {
         float:right;
-        width:26%;
-        background-color:#2D4654;
-        color: #FFFFFC;
-        padding-right:2.5%;
+        width:21%;
+        padding-right:7.5%;
+    }
+
+    aside h3{
+        border-bottom: 2px solid #3b1f2b;
     }
 }
 
 /* PHONE */
 @media all and (max-width:736px) {
     main.wrapper {
-        background-color: #2D4654;
+        background-color: white;
         color:#FFFFFC;
     }
     
