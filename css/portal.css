@@ -1,41 +1,68 @@
 /* My WEB120 Portal Website Styles */
 
 /* --------Color Palette ----------
-#4E0250 - Russian Violet - Header/Footer
-#801A86 - Mardi Gras
-#645986 - Dark Blue Gray - Main Font Color
-#8FE388 - Light Green 
-#58BC82 - Medium Sea Green */
+#4E0250 - Russian Violet - rgba(78, 2, 80, 1)
+#801A86 - Mardi Gras - rgba(128, 26, 134, 1)
+#645986 - Dark Blue Gray - rgba(100, 89, 134, 1)
+#8FE388 - Light Green - rgba(143, 227, 136, 1)
+#58BC82 - Medium Sea Green - rgba(88, 188, 130, 1)
 
+#DCDCDC - Grayish color - rgba(205, 205, 205, 1)
+##E6E6E6 - rgba(230, 230, 230, 1)
+#333333 - - rgba(100, 89, 134, 1)
 /* ----------- Global Styles ----------- */
-html {
-    background-color:#ccc; 
-    box-sizing: border-box; 
+
+* {
+    margin:0;
+    padding:0;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;    
+html,body {
+    margin:0;
+    padding:0;
 }
 
 main.wrapper {
-    background-color:#fff;
-    color: #343434;
     margin: 0 auto;
     padding: 0;
+    background-color: #645986;
+    color: #343434;
     overflow:auto;
 }
 header {
-    background: #4E0250;
+    background: #333;
     top: 0;
     margin: 0;
-    color: #58BC82;
+    padding-top: 13px;
+    padding-left: 3%;
+    color: #645986;
+}
+
+h1 {
+    padding-bottom: 13px;
 }
 
 h1>a {
+    padding-right: 2.5%
     text-decoration: none;
     color: #58BC82;
 }
 
+.div-page {
+    width: 90%;
+    float: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 2.5%;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: #8FE388;
+}
 /* font awesome icon styles */
 i.logo {
     color: darkred; /* a less boring color */
@@ -55,12 +82,17 @@ i.logo {
 */
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
     clear:both;
-    background-color: #fff; /* #4E0250, #fff */
-    color: *#58BC82; /*#58BC82 */
+    background-color: #333;
+    color: *#fff;
 }
 
 footer p {
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -85,32 +117,39 @@ div.embed-container iframe {
 
 /* START RESPONSIVE STYLES */
 
+/* ----- START -MAIN ----- */
 /* DESKTOP */
 @media all and (min-width:1400px) {
 	
    main.wrapper {
-		width:80%;
-        padding: 10px;
-		margin:auto;
+        margin: 0 auto;
 	}
 
     .section-main {
-		width:65%;
-        padding: 5px;
-		float:left;
-	}
+        padding-top: 17px;
+        padding-bottom: 2.5%;
+        padding-left: 2.5%;
+        width:59.5%;
+        float:left;
+    }
 	
      .aside-main {	
-		width:34%;
-        padding: 5px;
+		width:31.5%;
+        padding-right: 2.5%;
+        padding-bottom: 2.5%;
 		float:right;
 	}
-			
+	
+    .section-main > h2, .aside-main > h2 {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+
     img.desktop {
             float: left;
-       		width:25%;
-            border: 5px solid #4E0250;
-            margin: 10px; 
+       		width:15%;
+            margin-right: 13px;
+            border: 3px solid #333;
             display:inline-block;
     }
     
@@ -129,21 +168,30 @@ div.embed-container iframe {
 /* TABLET */
 @media all and (min-width:737px) and (max-width:1399px) {
 	
-	section {
-		width:60%;
+	.section-main {
+        padding-right: 1%;
+        padding-bottom: 2.5%;
+        padding-left: 2.5%;
+		width:55.5%;
 		float:left;
 	}
+    .section-main > h2, .aside-main > h2 {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
 	
-	aside {	
-		width:39%;
-        padding: 3px;
+	.aside-main {	
+        padding-right: 2.5%;
+        padding-bottom: 2.5%;
+        padding-left: 1%;
+		width:36.5%;
 		float:right;
 	}
 	
     img.tablet {
-       		width:100%;
-            padding: 1px;
-            border: 3px solid #4E0250;
+       		width:90%;
+            margin-bottom: 2.5%;
+            border: 7px solid #333;
             display:inline-block;
     }
     
@@ -161,16 +209,141 @@ div.embed-container iframe {
 
 /* PHONE */
 @media all and (max-width:736px) {
+
+    .section-main, .aside-main {
+        padding: 9px 7px;
+    }
+    .section-main > h2, .aside-main > h2 {
+        padding: 7px;
+    }
+
+    p {
+        padding-right: 3px;
+        padding-left: 3px;
+    }
     
     img.phone {
-       		width:100%;
-            border: 3px solid #4E0250;
-            margin: 5px;
-            display:inline-block;
+       		width:90%;
+            border: 3px solid #333;
+            margin: 7px auto 9px;
+            display: block;
     }
     
     img.tablet, img.desktop {
        	display:none;
     	}  
-
 }
+/* ----- END -MAIN ----- */
+
+/* ----- START -AIA ----- */
+/* DESKTOP */
+@media all and (min-width:1400px) {
+    
+   main.wrapper {
+        margin: 0 auto;
+    }
+
+    .section-aia {
+        width:90%;
+        padding-bottom: 2.5%;
+        padding-left: 2.5%;
+    }
+    
+     .aside-aia {  
+        width:90%;
+        padding-left: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    
+    .section-aia > h2, .aside-aia > h2 {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+                background-color: #645986;
+                color:#000;
+     }
+}
+
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+    
+    .section-aia {
+        padding-right: 1%;
+        padding-bottom: 2.5%;
+        padding-left: 2.5%;
+        width:90%;
+        float:left;
+    }
+    .section-aia > h2, .aside-main > h2 {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    
+    .aside-aia {   
+        padding-left: 2.5%;
+        padding-bottom: 2.5%;
+        width:90%;
+    }  
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #645986;
+        color:#000;
+    }
+}
+
+/* PHONE */
+@media all and (max-width:736px) {
+
+    .section-aia, .aside-aia {
+        padding: 9px 7px;
+    }
+    .section-aia > h2, .aside-aia > h2 {
+        padding: 7px;
+    }
+
+    p {
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+}
+
+/* ----- END -AIA ----- */
+
+/* ----- START AIA TABLE ----- */
+table {
+    background: rgba(230, 230, 230, 1);
+    color: black;
+    border-collapse: collapse;
+    border-radius: 7px;
+    box-shadow: 5px 5px;
+    border: 1px solid rgba(100, 89, 134, .25);
+}
+
+th {
+    vertical-align: top;
+    padding: 5px;
+}
+
+td {
+        vertical-align: top;
+    padding: 5px;
+}
+
+.client th {
+    text-align: left;
+    padding-right: 21px;
+}
+
+.audience th {
+    text-align: center;
+}
+
+.audience td {
+    text-align: left;
+}
+/* ----- END AIA TABLE ----- */

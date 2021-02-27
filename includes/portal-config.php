@@ -19,29 +19,40 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
 //die;
 
+/* --------Color Palette ----------
+#4E0250 - Russian Violet
+#801A86 - Mardi Gras
+#645986 - Dark Blue Gray
+#8FE388 - Light Green 
+#58BC82 - Medium Sea Green
+*/
+
 switch(THIS_PAGE){
 	case 'index.php':
 		$title = "Luann's IT162 Title Page";
 		$logo = 'fa-home';
+		$logo_color = ' style="color:rgba(128,26,134,.15)"';
 		$pageID = 'Welcome';
 	break;
 
 	case 'big/index.php':
-		$title = "Luann's Big";
+		$title = " Luann's Big";
 		$logo = 'fa-universal-access';
+		$logo_color = ' style="color:rgba(128,26,134,.15)"';
 		$pageID = 'Big';
 	break;
 
 	case 'aia.php':
-		$title = "AIA";
+		$title = " AIA";
 		$logo = 'fa-universal-access';
-		$logo_color = ' style="color:#00f"';
+		$logo_color = ' style="color:rgba(128,26,134,.15)"';
 		$pageID = 'Aia';
 	break;
 
 	case 'flowchart.php':
-		$title = "Flowchart layout";
+		$title = " Flowchart layout";
 		$logo = 'fa-pencil-square-o';
+		$logo_color = ' style="color:rgba(128,26,134,.15)"';
 		$pageID = 'Flowchart';
 	break;
 
@@ -52,9 +63,9 @@ switch(THIS_PAGE){
 	break;
 
 	case 'contactme.php':
-		$title = "Luann's IT162 Contact Page";
+		$title = " Luann's IT162 Contact Page";
 		$logo = 'fa-paper-plane-o';
-		$logo_color = ' style="color:#0f0"';
+		$logo_color = ' style="color:rgba(128,26,134,.15)"';
 		$pageID = 'Contact Luann';
 	break; 
 

@@ -1,6 +1,8 @@
 <?php include "includes/header.php";?>
+</div>
 
-
+<!-- START LEFT COL -->
+<section class="section-main">
 	<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
 	<img src="images/desktop.jpg" class="desktop" alt="Abby in bed" />
 	<img src="images/phone.jpg" class="phone" alt="Abby eating puppuccino" />
@@ -11,7 +13,7 @@
 <!-- END LEFT COL -->
 
 <!-- START RIGHT COL -->
-<aside>
+<aside class="aside-main">
 <h2>Hobbies</h2>
 	<img src="images/tablet.jpg" class="tablet" alt="Abby's begging for Starbucks" />
 	<p>Since Covid-19 became a reality here in the Seattle area, almost before the rest of the country, I have found a love of gardening. Maybe gardening is the wrong word, I haven’t actually planted nor grown any plants. In March an amazing friend practically dragged me to the <a href="https://beaconfoodforest.org/">Beacon Food Forest</a> because “dirts good for you,” as she said. After helping weed her p-peach several times, I began helping weed with the Beacon Food Forest community areas and I love it! With the restrictions of gatherings, Beacon Food Forest was hurting with not enough volunteers to maintain it’s grounds. Usually once a month they’d have do what’s called a work party and invite the members of the community to come help weed, water and help with other tasks. These parties typically consisted of 100 plus volunteers and without these work parties, the Food Forest was beginning to get overgrown.</p>

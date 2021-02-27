@@ -16,7 +16,7 @@
 <!-- START WRAPPER -->
 <main class="wrapper">
 <header>
-  <h1><i class="logo fa <?=$logo?>"<?=$logo_color?>></i>Luann's IT162 Portal</h1>
+  <h1><i class="logo fa <?=$logo?>"<?=$logo_color?>></i> Luann's IT162 Portal</h1>
   <nav>
     <ul class="topnav" id="myTopnav">
       <?=makeLinks($nav1)?>
@@ -32,7 +32,5 @@ END COMMENT OUT NAV -->
     </ul>
   </nav>
 </header>
-        
-<!-- START LEFT COL -->
-<section>
- <h2 class="pageID"><?=$pageID?></h2>
+<div class="div-page">
+  <h2 class="pageID"><?=$pageID?></h2>

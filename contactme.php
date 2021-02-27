@@ -8,7 +8,7 @@
          */
 
         include 'includes/contact_include.php'; #site keys & code here
-    
+        
         $toAddress = "luann.webster@seattlecentral.edu";  //place your/your client's email address here
         $toName = "Luann Marston"; //place your client's name here
         $website = "Luann's IT162 Web Portal";  //place NAME of your client's website
@@ -16,6 +16,10 @@
         //echo loadContact('simple.php');#demonstrates a simple contact form
         echo loadContact('multiple.php');#demonstrates multiple form elements
 
-	?> 
- </section>
+        ?> 
+</div>
+
+<!-- START LEFT COL -->
+<section class="section-main">
+</section>
 <?php include "includes/footer.php";?>

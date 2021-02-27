@@ -25,59 +25,64 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 //die; 
 
 switch(THIS_PAGE){
-	case '../index.php':
-		$title = "IT 162 Portal";
-		$logo = 'fa-home';
-		$pageID = 'Home';
-	break;
+//	case '../index.php':
+//		$title = " IT 162 Portal";
+//		$logo = 'fa-home';
+//		$pageID = 'Home';
+//	break; 
 
 	case 'index.php':
-		$title = "L. Marston's IT162 BIG Project";
+		$title = " L. Marston's IT162 BIG Project";
 		$logo = 'fa-home';
+		$logo_color = ' style="color:#6CCFF6"';
 		$pageID = 'Client Questionnaire';
 	break;
 
 	case 'flexbox.php':
 		$title = "Flexbox Research";
-		$logo = 'fa-pencil-square-o';
+		$logo = 'fa-users';
+		$logo_color = ' style="color:#6CCFF6"';
 		$pageID = 'Flexbox Research';
 	break;
 
 	case 'galleries.php':
 		$title = "Galleries Research";
-		$logo = 'fa-pencil-square-o';
-		$logo_color = ' style="color:#00f"';
+		$logo = 'fa-image';
+		$logo_color = ' style="color:#6CCFF6"';
 		$pageID = 'Are Sliding Galleries The Only Option?';
 	break;
 
 	case 'map.php':
 		$title = "Google Map";
-		$logo = 'fa-pencil-square-o';
+		$logo = 'fa-map';
+		$logo_color = ' style="color:#6CCFF6"';
 		$pageID = 'Google Map';
 	break;
 
 	case 'calendar.php':
 		$title = "Google Calendar";
-		$logo = 'fa-pencil-square-o';
+		$logo = 'fa-calendar';
+		$logo_color = ' style="color:#6CCFF6"';
 		$pageID = 'Google Calendar';
 	break;
 
 	case 'youtube.php':
 		$title = "Youtube";
-		$logo = 'fab fa-accessible-icon';
+		$logo = 'fa-youtube';
+		$logo_color = ' style="color:#6CCFF6"';
 		$pageID = 'Web Accessibility';
 	break;
 
 	case 'siteapp.php':
 		$title = "Site vs App Research";
-		$logo = 'fa-pencil-square-o';
+// not working		$logo = 'fa-not-equal'; icons I want all use newer version of font awesome
 		$pageID = 'Is a Responsive Website More Important than a Mobile App?';
 	break;
 
 	case 'webcam.php':
 		$title = "Live Web Cameras";
-		$logo = 'fa-paper-plane-o';
-		$logo_color = ' style="color:#0f0"';
+		$logo = 'fa-slideshare';
+		$logo_color = ' style="color:#6CCFF6"';
 		$pageID = 'Kitten Academy Live Stream';
 	break; 
 
