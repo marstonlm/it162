@@ -1,8 +1,8 @@
 <?php include "includes/header.php";?>
 </div>
 
-<!-- START CLIENT TABLE -->
 <div class="section-aia ">
+	<!-- START CLIENT TABLE -->
 	<table class="client">
 		<tr>
 			<th>Client Name:</th>
@@ -22,7 +22,7 @@
 		</tr>
 		<tr>
 			<th>Redesign or New Website:</th>
-			<td>Redesign: <td><a href="https://wwwa4loop.com/">www.a4loop.com</a></td>
+			<td>Redesign: <a href="https://wwwa4loop.com/">a4loop.com</a></td>
 		</tr>
 		<tr>
 			<th></th>
@@ -131,7 +131,6 @@
 						<li>Have a positive Community centered Mission Statement</li>
 						<li>Portfolio page</li>
 						<li>Kick butt design/layout of site</li>
-						<li>
 					</ul>
 				</td>
 			</tr>

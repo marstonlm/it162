@@ -324,10 +324,14 @@ table {
     border: 1px solid rgba(100, 89, 134, .25);
 }
 
+td>a {
+    color: #801A86;
+}
+
 .client th {
     vertical-align: top;
     padding-right: 21px;
-    padding-left: 5px;
+    padding-left: 10px;
     text-align: left;
 }
 
@@ -351,6 +355,8 @@ table {
     vertical-align: top;
     padding-top: 5px;
     padding-right: 21px;
+    padding-left: 10px;
     text-align: left;
 }
+
 /* ----- END AIA TABLE ----- */
