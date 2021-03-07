@@ -1,99 +1,143 @@
 /* My WEB120 Portal Website Styles */
 
 /* --------Color Palette ----------
-#4E0250 - Russian Violet - rgba(78, 2, 80, 1)
-#801A86 - Mardi Gras - rgba(128, 26, 134, 1)
-#645986 - Dark Blue Gray - rgba(100, 89, 134, 1)
-#8FE388 - Light Green - rgba(143, 227, 136, 1)
-#58BC82 - Medium Sea Green - rgba(88, 188, 130, 1)
 
-#DCDCDC - Grayish color - rgba(205, 205, 205, 1)
-##E6E6E6 - rgba(230, 230, 230, 1)
-#333333 - - rgba(100, 89, 134, 1)
 /* ----------- Global Styles ----------- */
 
 * {
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 html,body {
+    background-color: #eee;
+    color: #434344;
     margin:0;
     padding:0;
 }
 
-main.wrapper {
+
+/* Page Layout */
+.container {
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0;
-    background-color: #645986;
-    color: #343434;
-    overflow:auto;
-}
-header {
-    background: #333;
-    top: 0;
-    margin: 0;
-    padding-top: 13px;
-    padding-left: 3%;
-    color: #645986;
-}
-
-h1 {
-    padding-bottom: 13px;
-}
-
-h1>a {
-    padding-right: 2.5%
-    text-decoration: none;
-    color: #58BC82;
-}
-
-.div-page {
-    width: 90%;
-    float: left;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 2.5%;
-}
-
-p {
-    color: white;
-}
-
-a {
-    color: #8FE388;
-}
-/* font awesome icon styles */
-i.logo {
-    color: darkred; /* a less boring color */
-    text-shadow: 1px 1px #ccc; /* give the icon a little depth */
-    font-size: 1.25em; /* font awesome icons are text, so make it a bit bitter */
-    margin-left: 1%; /* this keeps the icon from being squeezed to the left */
-}
-
-/* pre font awesome icon styles
-.logo {
-    color:#58BC82;
-    margin-left:1%;
-    margin-right: 1%;
-    text-shadow:1px 1px #ccc;
-    font-size:1.25em;
-}
-*/
-
-footer {
+    padding: 0 40px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 55px;
-    clear:both;
-    background-color: #333;
-    color: *#fff;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+/* Header */
+header{
+    background-color: #30424e;
+    color: #9f9c9c;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #b0e0ea;
+    display: flex;
+    justify-content: space-between;
+}
+
+header.a {
+    background: #30424e;
+}
+
+header nav ul {
+    display: flex;
+    align-items: baseline;
+    list-style-type: none;
+}
+
+header nav li {
+    margin-right: 15px;
+}
+
+header button {
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    background-color: #51bb7b;
+}
+
+.site_logo {
+    display:block;
+    overflow: hidden;
+    width: 100%;
+    background: url(../images/site_logo.png) 0 50% no-repeat;
+}
+
+/* Main Section */
+.wrapper {
+    display: flex;
+}
+
+.section-main {
+    width: 50%;
+    flex: 3;
+}
+
+.section-main h2 {
+    font-size: 32px;
+    margin: 1rem 0;
+    color: #50c6db;
+}
+
+.section-main p {
+    font-size: 1rem;
+    margin-bottom: .75rem;
+}
+
+.section-main img {
+    width: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    flex: 1;
+    margin-right: 60px;
+    border-top: 3px solid #693f7e;
+    background-color: #f9f9f9;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin-top: 1rem;
+  font-size: .75rem;
+}
+
+.sidebar ul > li {
+    padding: .25rem 0;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: #50c6db;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+    padding: 20px 0;
+    background-color: #9f9c9c;
 }
 
 footer p {
-    margin: 0 auto;
-    text-align: center;
+    color: #434344;
+    font-size: 12px;
+    padding: 10px;
 }
 
 /* Embed Responsively Rules! */
@@ -104,7 +148,7 @@ div.embed-container {
     overflow: hidden;
     margin: auto;
     max-width: 98%;
-} 
+}
 
 div.embed-container iframe {
     position: absolute;
@@ -117,37 +161,16 @@ div.embed-container iframe {
 
 /* START RESPONSIVE STYLES */
 
-/* ----- START -MAIN ----- */
 /* DESKTOP */
 @media all and (min-width:1400px) {
 	
-   main.wrapper {
+   div.wrapper {
         margin: 0 auto;
 	}
 
-    .section-main {
-        padding-top: 17px;
-        padding-bottom: 2.5%;
-        padding-left: 2.5%;
-        width:59.5%;
-        float:left;
-    }
-	
-     .aside-main {	
-		width:31.5%;
-        padding-right: 2.5%;
-        padding-bottom: 2.5%;
-		float:right;
-	}
-	
-    .section-main > h2, .aside-main > h2 {
-        padding-top: 2.5%;
-        padding-bottom: 2.5%;
-    }
-
     img.desktop {
             float: left;
-       		width:15%;
+       		height: 4em;
             margin-right: 13px;
             border: 3px solid #333;
             display:inline-block;
@@ -156,37 +179,13 @@ div.embed-container iframe {
     img.tablet, img.phone {
        	display:none;
     	}  
-    
-    /* Change background color of navigation on selected page */
-    ul.topnav li a.selected {
-        		background-color: #645986;
-        		color:#000;
-   	 }
 }
 
 
 /* TABLET */
-@media all and (min-width:737px) and (max-width:1399px) {
+@media all and (min-width:750px) and (max-width:1399px) {
 	
-	.section-main {
-        padding-right: 1%;
-        padding-bottom: 2.5%;
-        padding-left: 2.5%;
-		width:55.5%;
-		float:left;
-	}
-    .section-main > h2, .aside-main > h2 {
-        padding-top: 2.5%;
-        padding-bottom: 2.5%;
-    }
-	
-	.aside-main {	
-        padding-right: 2.5%;
-        padding-bottom: 2.5%;
-        padding-left: 1%;
-		width:36.5%;
-		float:right;
-	}
+
 	
     img.tablet {
        		width:90%;
@@ -197,8 +196,7 @@ div.embed-container iframe {
     
     img.desktop, img.phone {
        	display:none;
-    	}  
-    
+    	}     
     
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
@@ -207,15 +205,10 @@ div.embed-container iframe {
     }
 }
 
-/* PHONE */
-@media all and (max-width:736px) {
 
-    .section-main, .aside-main {
-        padding: 9px 7px;
-    }
-    .section-main > h2, .aside-main > h2 {
-        padding: 7px;
-    }
+/* PHONE */
+@media all and (max-width:749px) {
+
 
     p {
         padding-right: 3px;
@@ -233,117 +226,3 @@ div.embed-container iframe {
        	display:none;
     	}  
 }
-/* ----- END -MAIN ----- */
-
-/* ----- START -AIA ----- */
-/* DESKTOP */
-@media all and (min-width:1400px) {
-    
-   main.wrapper {
-        margin: 0 auto;
-    }
-
-    .section-aia {
-        width:90%;
-        padding-bottom: 2.5%;
-        padding-left: 2.5%;
-    }
-    
-     .aside-aia {  
-        width:90%;
-        padding-left: 2.5%;
-        padding-bottom: 2.5%;
-    }
-    
-    .section-aia > h2, .aside-aia > h2 {
-        padding-top: 2.5%;
-        padding-bottom: 2.5%;
-    }
-    
-    /* Change background color of navigation on selected page */
-    ul.topnav li a.selected {
-                background-color: #645986;
-                color:#000;
-     }
-}
-
-
-/* TABLET */
-@media all and (min-width:737px) and (max-width:1399px) {
-    
-    .section-aia {
-        padding-right: 1%;
-        padding-bottom: 2.5%;
-        padding-left: 2.5%;
-        width:90%;
-        float:left;
-    }
-    .section-aia > h2, .aside-main > h2 {
-        padding-top: 2.5%;
-        padding-bottom: 2.5%;
-    }
-    
-    .aside-aia {   
-        padding-left: 2.5%;
-        padding-bottom: 2.5%;
-        width:90%;
-    }  
-    
-    /* Change background color of navigation on selected page */
-    ul.topnav li a.selected {
-        background-color: #645986;
-        color:#000;
-    }
-}
-
-/* PHONE */
-@media all and (max-width:736px) {
-
-    .section-aia, .aside-aia {
-        padding: 9px 7px;
-    }
-    .section-aia > h2, .aside-aia > h2 {
-        padding: 7px;
-    }
-
-    p {
-        padding-right: 3px;
-        padding-left: 3px;
-    }
-}
-
-/* ----- END -AIA ----- */
-
-/* ----- START AIA TABLE ----- */
-table {
-    background: rgba(230, 230, 230, 1);
-    color: black;
-    border-collapse: collapse;
-    border-radius: 7px;
-    box-shadow: 5px 5px;
-    border: 1px solid rgba(100, 89, 134, .25);
-}
-
-th {
-    vertical-align: top;
-    padding: 5px;
-}
-
-td {
-        vertical-align: top;
-    padding: 5px;
-}
-
-.client th {
-    text-align: left;
-    padding-right: 21px;
-}
-
-.audience th {
-    text-align: center;
-}
-
-.audience td {
-    text-align: left;
-}
-/* ----- END AIA TABLE ----- */
