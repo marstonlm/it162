@@ -81,7 +81,7 @@ switch(THIS_PAGE){
 $nav1['index.php'] = "Welcome";
 $nav1['big/index.php'] = "Big";
 $nav1['aia.php'] = "AIA";
-$nav1['flowchart.php'] = "Flowchart  Layout";
+$nav1['https://docs.google.com/document/d/1dgqEy0uwT7qaRw1zmTxV6n7NpPoiJ7x8jqhLpkHjtKM/edit?usp=sharing'] = "Flowchart  Layout";
 $nav1['fp/index.php'] = "Final Project";
 $nav1['contactme.php'] = "Contact Luann";
 
