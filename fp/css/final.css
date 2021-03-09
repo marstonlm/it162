@@ -1,0 +1,127 @@
+/* FINAL PROJECT a4loop */
+
+/* ------ Global Styles ----- */
+* {
+    margin:0;
+    padding:0;
+}
+
+html,body {
+    background-color: #eee;
+    margin:0;
+    padding:0;
+    font: 10px;
+}
+
+/* Page Layout */
+main.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow:auto;
+    background-color: green;
+}
+
+
+/* Header */
+header{
+    background-color: white;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+    margin-bottom:0;
+    text-transform: uppercase;
+    border-bottom: .2rem solid #b0e0ea;
+    display: flex;
+    justify-content: space-between;
+    color: #9f9c9c;
+}
+
+h1 {
+    padding-top: 1.5rem;
+    padding-bottom: .5rem;
+    padding-left: 2rem;
+}
+
+.site_logo {
+    display:block;
+    overflow: hidden;
+    width: 100%;
+    background: url(../images/site_logo.png) 0 50% no-repeat;
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    background-color: #9f9c9c;
+    margin-top: 6rem;
+    padding: 1.5rem 2rem; 
+    clear: both;
+    color: #fff;
+    text-align: center;
+}
+
+/* START RESPONSIVE STYLES */
+
+/* Desktops and laptops ----------- */
+@media all and (min-width:1280px) {
+
+    main.container {
+        margin: 0 auto;
+    }
+
+    aside {
+        padding-top: 1rem;
+        padding-bottom: 2.5%;
+        width:20%;
+        float:left;
+        background-color: green;
+    }
+
+    .sidebar>p {
+        padding-top: 1rem;
+        padding-left: 3rem;
+    }
+
+    .section {
+        width:70%;
+        padding-top: 0;
+        padding-bottom: 2rem;
+        padding-left: 3rem;
+        float: right;
+        background-color: red;
+    }
+
+    .sidenav {
+        background-color: purple;
+    }
+
+}
+
+/* Tablets  (portrait and landscape) ----------- */
+@media all and (min-device-width:768px) and (max-device-width:1279px) {
+
+    .sidebar {
+        
+    }
+
+    .section {
+
+    }
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media all and (max-device-width:767px) {
+    /* Aside .Sidebar */
+    .sidebar {
+        
+    }
+
+    /* Section */
+    .section {
+        
+    }
+}
