@@ -14,7 +14,7 @@ html,body {
 }
 
 /* Page Layout */
-main.container {
+main.wrapper {
     max-width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -22,14 +22,22 @@ main.container {
     background-color: green;
 }
 
+/* .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow:auto;
+    background-color: pink;
+    } */
 
-/* Header */
+
+    /* Header */
 header{
     background-color: white;
     width: 100%;
     padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-top: 4rem;
+    padding-bottom: .5rem;
+    margin-top: 3rem;
     margin-bottom:0;
     text-transform: uppercase;
     border-bottom: .2rem solid #b0e0ea;
@@ -38,90 +46,199 @@ header{
     color: #9f9c9c;
 }
 
-h1 {
-    padding-top: 1.5rem;
-    padding-bottom: .5rem;
-    padding-left: 2rem;
+.header-logo {
+    padding-top: .15rem;
+    padding-left: 1.5rem;
+    
+}
+.header-logo > p {
+    margin: 0;
+    padding-top:.25rem;
+    font-size: .75rem;
+    text-align: center;
 }
 
-.site_logo {
+header>h1 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1.5rem;
+}
+
+.logo {
     display:block;
     overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ----- ASIDE ----- */
+aside {
+        background-color: pink;
+        width: 20%;
+        padding-top: 1rem;
+        padding-left: 3rem;
+        float: left;
+    }
+
+
+/* ----- SECTION ----- */
+section {
+    width:73%;
+    float: right;
+    background-color: red;
+}
+
+.content {
+    padding-bottom: 2rem; 
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+section>.container {
+    position: relative;
+}
+
+.page-id {
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+img.img_id {
     width: 100%;
-    background: url(../images/site_logo.png) 0 50% no-repeat;
+    height: auto;
+    opacity: 0.3;
 }
 
 
 /* Footer */
 footer {
-    display: flex;
     background-color: #9f9c9c;
-    margin-top: 6rem;
-    padding: 1.5rem 2rem; 
+    margin: 0;
+    padding: 10px 25px;
     clear: both;
     color: #fff;
-    text-align: center;
 }
+
+footer>.container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    overflow:auto;
+}
+
+.footer-logo {
+    width: 45%;
+    float: left;
+    padding-bottom: 1rem;
+} 
+
+.social {
+    width:55%;
+    float: right;
+    margin: 0;
+}
+
+.column {
+    float:right;
+    width: 21px;
+    padding: 7px 0px 7px 17px;
+}
+
+.site-map {
+    background-color: #9f9c9c;
+    width: 80%;
+    float: left;
+}
+
+th, td {
+    padding-right: 1rem;
+    text-align: left;
+}
+
+.copyright {
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* START RESPONSIVE STYLES */
-
 /* Desktops and laptops ----------- */
 @media all and (min-width:1280px) {
-
-    main.container {
-        margin: 0 auto;
-    }
-
     aside {
-        padding-top: 1rem;
-        padding-bottom: 2.5%;
-        width:20%;
-        float:left;
-        background-color: green;
+        width: 15%;
     }
 
-    .sidebar>p {
-        padding-top: 1rem;
-        padding-left: 3rem;
-    }
-
-    .section {
-        width:70%;
-        padding-top: 0;
-        padding-bottom: 2rem;
-        padding-left: 3rem;
-        float: right;
-        background-color: red;
-    }
-
-    .sidenav {
-        background-color: purple;
+    section {
+        width: 81%;
     }
 
 }
 
-/* Tablets  (portrait and landscape) ----------- */
+
+    /* Tablets  (portrait and landscape) ----------- */
 @media all and (min-device-width:768px) and (max-device-width:1279px) {
 
-    .sidebar {
-        
-    }
-
-    .section {
+    aside {
+        background-color: orange;
 
     }
+
+    section {
+        background-color: blue;
+    }
+
 
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media all and (max-device-width:767px) {
-    /* Aside .Sidebar */
-    .sidebar {
-        
+
+    aside {
+        background-color: purple;
+        padding-bottom: 1rem;
+    }
+    
+    section {
+        background-color: gray;
+        float: left;
+
     }
 
-    /* Section */
-    .section {
-        
+    .responsive {
+        width: 100%
     }
+
+    footer {
+        background-color: yellow;
+    }
+
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }

@@ -1,0 +1,228 @@
+/* My WEB120 Portal Website Styles */
+
+/* --------Color Palette ----------
+
+/* ----------- Global Styles ----------- */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body {
+    background-color: #eee;
+    color: #434344;
+    margin:0;
+    padding:0;
+}
+
+
+/* Page Layout */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+/* Header */
+header{
+    background-color: #30424e;
+    color: #9f9c9c;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #b0e0ea;
+    display: flex;
+    justify-content: space-between;
+}
+
+header.a {
+    background: #30424e;
+}
+
+header nav ul {
+    display: flex;
+    align-items: baseline;
+    list-style-type: none;
+}
+
+header nav li {
+    margin-right: 15px;
+}
+
+header button {
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    background-color: #51bb7b;
+}
+
+.site_logo {
+    display:block;
+    overflow: hidden;
+    width: 100%;
+    background: url(../images/site_logo.png) 0 50% no-repeat;
+}
+
+/* Main Section */
+.wrapper {
+    display: flex;
+}
+
+.section-main {
+    width: 50%;
+    flex: 3;
+}
+
+.section-main h2 {
+    font-size: 32px;
+    margin: 1rem 0;
+    color: #50c6db;
+}
+
+.section-main p {
+    font-size: 1rem;
+    margin-bottom: .75rem;
+}
+
+.section-main img {
+    width: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    flex: 1;
+    margin-right: 60px;
+    border-top: 3px solid #693f7e;
+    background-color: #f9f9f9;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin-top: 1rem;
+  font-size: .75rem;
+}
+
+.sidebar ul > li {
+    padding: .25rem 0;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: #50c6db;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+    padding: 20px 0;
+    background-color: #9f9c9c;
+}
+
+footer p {
+    color: #434344;
+    font-size: 12px;
+    padding: 10px;
+}
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+}
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+   div.wrapper {
+        margin: 0 auto;
+	}
+
+    img.desktop {
+            float: left;
+       		height: 4em;
+            margin-right: 13px;
+            border: 3px solid #333;
+            display:inline-block;
+    }
+    
+    img.tablet, img.phone {
+       	display:none;
+    	}  
+}
+
+
+/* TABLET */
+@media all and (min-width:750px) and (max-width:1399px) {
+	
+
+	
+    img.tablet {
+       		width:90%;
+            margin-bottom: 2.5%;
+            border: 7px solid #333;
+            display:inline-block;
+    }
+    
+    img.desktop, img.phone {
+       	display:none;
+    	}     
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #645986;
+        color:#000;
+    }
+}
+
+
+/* PHONE */
+@media all and (max-width:749px) {
+
+
+    p {
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    
+    img.phone {
+       		width:90%;
+            border: 3px solid #333;
+            margin: 7px auto 9px;
+            display: block;
+    }
+    
+    img.tablet, img.desktop {
+       	display:none;
+    	}  
+}
