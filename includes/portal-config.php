@@ -56,7 +56,7 @@ switch(THIS_PAGE){
 		$pageID = 'Flowchart';
 	break;
 
-	case 'fp/index.php':
+	case 'fp/template.php':
 		$title = "Luann's Final Project";
 		$logo = 'fa-pencil-square-o';
 		$pageID = 'Final Project';
@@ -82,7 +82,7 @@ $nav1['index.php'] = "Welcome";
 $nav1['big/index.php'] = "Big";
 $nav1['aia.php'] = "AIA";
 $nav1['https://docs.google.com/document/d/1dgqEy0uwT7qaRw1zmTxV6n7NpPoiJ7x8jqhLpkHjtKM/edit?usp=sharing'] = "Flowchart  Layout";
-$nav1['fp/index.php'] = "Final Project";
+$nav1['fp/template.php'] = "Final Project";
 $nav1['contactme.php'] = "Contact Luann";
 
 
