@@ -41,6 +41,6 @@
     <section class="section responsive">
       <div class="container responsive">
         <img class="img_id" src="images/page_id.jpg" alt="Page ID background image">
-        <div class="page-id">PAGE ID</div>
+        <div class="page-id">CAT IPSUM</div>
       </div>
 
