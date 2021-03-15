@@ -6,7 +6,11 @@
   <meta name="viewport" content="width=device-width" />
   <meta name="robots" content="noindex,nofollow" />
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/nav.css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+      <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+        <script src="js/script.js"></script>
+ <!--  <link rel="stylesheet" href="css/nav.css" /> -->
+ <link rel="stylesheet" href="css/nav-new.css" />
   <link rel="stylesheet" href="css/final.css" />
   <script src="https://kit.fontawesome.com/2358758f1c.js" crossorigin="anonymous"></script>
 </head>
@@ -20,14 +24,12 @@
         </div>
       <ul class="topnav" id="myTopnav">
         <?=makeLinks($nav1)?>
-<!-- STRATE COMMENT OUT NAV
         <li><a class="selected" href="index.php"></a></li>
         <li><a href="services.php">Services</a></li>
         <li><a href="portfolio.php">Portfolio</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="blog.php">Blog</a></li>
         <li><a href="contact.php">Contact</a></li>
-END COMMENT OUT NAV -->
         <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
       </ul>
     </nav>
