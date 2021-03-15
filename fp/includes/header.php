@@ -23,31 +23,41 @@
       <div class="header-logo"><a href="template.html"><img src="images/site_logo.jpg" class="logo responsive"></a>
         <p>Software Your Way</p>
       </div>
-      <ul class="topnav" id="myTopnav">
-        <?=makeLinks($nav1)?>
+      <nav id="cssmenu">
+      <ul>
         <li><a class="selected" href="index.php"></a></li>
-        <li><a href="services.php">Services</a></li>
-        <li><a href="portfolio.php">Portfolio</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="blog.php">Blog</a></li>
-        <li><a href="contact.php">Contact</a></li>
-        <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
-      </ul>
-    </nav>
-  </header>
+        <li><a href="services.php"><span>Services</span></a>
+          <ul>
+            <li><a href="software.php"><span>Software</span></a></li>
+            <li><a href="mobile.php"><span>Mobile Apps</span></a></li>
+            <li><a href="database.php"><span>Database </span></a></li>
+          </ul></li>
+          <li><a href="portfolio.php"><span>Portfolio</span></a></li>
+          <li><a href="about.php"><span>About</span></a>
+            <ul>
+              <li><a href="ourstory.php"><span>Our Story</span></a></li>
+              <li><a href="team.php"><span>The Team</span></a></li>
+              <li><a href="careers.php"><span>Career Oppertunities</span></a></li>
+            </ul>
+          </li>
+          <li><a href="blog.php"><span>Blog</span></a></li>
+          <li><a href="contact.php"><span>Contact</span></a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <!-- START MAIN CONTENT -->    
-  <div id="content-main" class="container">
-    <!-- START ASIDE -->
-    <aside class="responsive">
-      <div class="sidebar"><a href="index.html"><i class="fas fa-long-arrow-alt-left"></i> Back To Home</a></div>
-    </aside>
-    <!-- END ASIDE -->
+    <!-- START MAIN CONTENT -->    
+    <div id="content-main" class="container">
+      <!-- START ASIDE -->
+      <aside class="responsive">
+        <div class="sidebar"><a href="index.html"><i class="fas fa-long-arrow-alt-left"></i> Back To Home</a></div>
+      </aside>
+      <!-- END ASIDE -->
 
-    <!-- START SECTION -->
-    <section class="section responsive">
-      <div class="container responsive">
-        <img class="img_id" src="images/page_id.jpg" alt="Page ID background image">
-        <div class="page-id"><?=$pageID?></div>
-      </div>
+      <!-- START SECTION -->
+      <section class="section responsive">
+        <div class="container responsive">
+          <img class="img_id" src="images/page_id.jpg" alt="Page ID background image">
+          <div class="page-id"><?=$pageID?></div>
+        </div>
 
