@@ -91,7 +91,7 @@ $nav1['contact.php'] = "Contact";
   <li><a href="contact.php">Contact</a></li>
 */
 
-
+/*
 
 function makeLinks($linkArray)
 {
@@ -110,5 +110,5 @@ function makeLinks($linkArray)
     return $myReturn;   
 } 
 
-
+*/
 ?>
