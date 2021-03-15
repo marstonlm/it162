@@ -30,9 +30,26 @@ switch(THIS_PAGE){
 
 	case 'services.php':
 		$title = " Services";
+		$pageID = 'Services';
+	break;
+
+	case 'software.php':
+		$title = " Software";
+		$pageID = 'Software';
+	break;
+
+	case 'mobile.php':
+		$title = " Mobile Apps";
 		$logo = 'fa-universal-access';
 		$logo_color = ' style="color:rgba(128,26,134,.15)"';
-		$pageID = 'Services';
+		$pageID = 'Mobile Apps';
+	break;
+
+	case 'database.php':
+		$title = " Database";
+		$logo = 'fa-universal-access';
+		$logo_color = ' style="color:rgba(128,26,134,.15)"';
+		$pageID = 'Database';
 	break;
 
 	case 'Portfolio':
@@ -47,6 +64,27 @@ switch(THIS_PAGE){
 		$logo = 'fa-pencil-square-o';
 		$logo_color = ' style="color:rgba(128,26,134,.15)"';
 		$pageID = 'About';
+	break;
+
+	case 'ourstory.php':
+		$title = " Our Story";
+		$logo = 'fa-pencil-square-o';
+		$logo_color = ' style="color:rgba(128,26,134,.15)"';
+		$pageID = 'Our Story';
+	break;
+
+	case 'team.php':
+		$title = " The Team";
+		$logo = 'fa-pencil-square-o';
+		$logo_color = ' style="color:rgba(128,26,134,.15)"';
+		$pageID = 'The Team';
+	break;
+
+	case 'careers.php':
+		$title = " Careers";
+		$logo = 'fa-pencil-square-o';
+		$logo_color = ' style="color:rgba(128,26,134,.15)"';
+		$pageID = 'Career Oppertunities';
 	break;
 
 	case 'blog.php':
