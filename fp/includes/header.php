@@ -6,22 +6,23 @@
   <meta name="viewport" content="width=device-width" />
   <meta name="robots" content="noindex,nofollow" />
   <meta charset="utf-8">
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-      <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
-        <script src="js/script.js"></script>
- <!--  <link rel="stylesheet" href="css/nav.css" /> -->
- <link rel="stylesheet" href="css/nav-new.css" />
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+  <script src="js/script.js"></script>
+  <!--  <link rel="stylesheet" href="css/nav.css" /> -->
+  <link rel="stylesheet" href="css/new-nav.css" />
   <link rel="stylesheet" href="css/final.css" />
-  <script src="https://kit.fontawesome.com/2358758f1c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/form.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 </head>
 
 <body>
   <!-- START WRAPPER -->
   <main class="wrapper">
     <header>
-        <div class="header-logo"><a href="template.html"><img src="images/site_logo.jpg" class="logo responsive"></a>
-          <p>Software Your Way</p>
-        </div>
+      <div class="header-logo"><a href="template.html"><img src="images/site_logo.jpg" class="logo responsive"></a>
+        <p>Software Your Way</p>
+      </div>
       <ul class="topnav" id="myTopnav">
         <?=makeLinks($nav1)?>
         <li><a class="selected" href="index.php"></a></li>
