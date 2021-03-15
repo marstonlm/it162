@@ -1,7 +1,8 @@
+<?php include 'final-config.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head> 
-  <title>A4 Loop</title>
+  <title><?=$title?></title>
   <meta name="viewport" content="width=device-width" />
   <meta name="robots" content="noindex,nofollow" />
   <meta charset="utf-8">
@@ -18,12 +19,15 @@
           <p>Software Your Way</p>
         </div>
       <ul class="topnav" id="myTopnav">
+        <?=makeLinks($nav1)?>
+<!-- STRATE COMMENT OUT NAV
         <li><a class="selected" href="index.php"></a></li>
         <li><a href="services.php">Services</a></li>
-        <li><a href="work.php">Work</a></li>
-        <li><a href="us.php">Us</a></li>
+        <li><a href="portfolio.php">Portfolio</a></li>
+        <li><a href="about.php">About</a></li>
         <li><a href="blog.php">Blog</a></li>
         <li><a href="contact.php">Contact</a></li>
+END COMMENT OUT NAV -->
         <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
       </ul>
     </nav>
@@ -41,6 +45,6 @@
     <section class="section responsive">
       <div class="container responsive">
         <img class="img_id" src="images/page_id.jpg" alt="Page ID background image">
-        <div class="page-id">CAT IPSUM</div>
+        <div class="page-id"><?=$pageID?></div>
       </div>
 
