@@ -52,10 +52,8 @@ switch(THIS_PAGE){
 		$pageID = 'Database';
 	break;
 
-	case 'Portfolio':
+	case 'portfolio.php':
 		$title = " Portfolio";
-		$logo = 'fa-universal-access';
-		$logo_color = ' style="color:rgba(128,26,134,.15)"';
 		$pageID = 'Portfolio';
 	break;
 
