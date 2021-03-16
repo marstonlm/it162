@@ -1,14 +1,124 @@
-<?php include "includes/header.php";?>
-<div class="content">
-	<h2>Bite plants</h2>
-	<p>Cat ipsum dolor sit amet, if human is on laptop sit on the keyboard side-eyes your "jerk" other hand while being petted . Hiss and stare at nothing then run suddenly away naughty running cat licks paws. Chill on the couch table murder hooman toes but damn that dog look at dog hiiiiiisssss or steal raw zucchini off kitchen counter dont wait for the storm to pass, dance in the rain and crusty butthole. Jump on counter removed by human jump on counter again removed by human meow before jumping on counter this time to let the human know am coming back cat cat moo moo lick ears lick paws chase red laser dot so massacre a bird in the living room and then look like the cutest and most innocent animal on the planet or fish i must find my red catnip fishy fish scratch me there, elevator butt. Gate keepers of hell meow meow, i tell my human run as fast as i can into another room for no reason, so and sometimes switches in french and say "miaou" just because well why not burrow under covers, skid on floor, crash into wall . Drink water out of the faucet. Peer out window, chatter at birds, lure them to mouth make it to the carpet before i vomit mmmmmm yet leave fur on owners clothes but plays league of legends. Fart in owners food i'm bored inside, let me out i'm lonely outside, let me in i can't make up my mind whether to go in or out, guess i'll just stand partway in and partway out, contemplating the universe for half an hour how dare you nudge me with your foot?!?! leap into the air in greatest offense! and sniff sniff lies down . If human is on laptop sit on the keyboard purrr purr littel cat, little cat purr purr so find empty spot in cupboard and sleep all day but get my claw stuck in the dog's ear or see owner, run in terror push your water glass on the floor. Run as fast as i can into another room for no reason plan steps for world domination meoooow eat a plant, kill a hand. Sniff other cat's butt and hang jaw half open thereafter scratch me there, elevator butt or woops poop hanging from butt must get rid run run around house drag poop on floor maybe it comes off woops left brown marks on floor human slave clean lick butt now or get scared by sudden appearance of cucumber pooping rainbow while flying in a toasted bread costume in space. Damn that dog ooooh feather moving feather! poop in the plant pot adventure always. Purr friends are not food plan your travel yet i show my fluffy belly but it's a trap! if you pet it i will tear up your hand why dog in house? i'm the sole ruler of this home and its inhabitants smelly, stupid dogs, inferior furballs time for night-hunt, human freakout. This cat happen now, it was too purr-fect!!! lies down but put butt in owner's face, for snob you for another person. Use lap as chair sit on human they not getting up ever and hell is other people no, you can't close the door, i haven't decided whether or not i wanna go out or claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? i like cats because they are fat and fluffy. This human feeds me, i should be a god pounce on unsuspecting person play riveting piece on synthesizer keyboard so headbutt owner's knee you are a captive audience while sitting on the toilet, pet me yet who's the baby. Mew. <br /><br />
+<?php include 'final-config.php'?>
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <title><?=$title?></title>
+  <meta name="viewport" content="width=device-width" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta charset="utf-8">
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+  <script src="js/script.js"></script>
+  <!--  <link rel="stylesheet" href="css/nav.css" /> -->
+  <link rel="stylesheet" href="css/new-nav.css" />
+  <link rel="stylesheet" href="css/final.css" />
+  <link rel="stylesheet" href="css/form.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+</head>
 
-	You have cat to be kitten me right meow chase the pig around the house. Stare out cat door then go back inside scratch at the door then walk away, play with twist ties. If it fits, i sits when in doubt, wash kitty kitty for purrrrrr yet this is the day why use post when this sofa is here for crash against wall but walk away like nothing happened. Curl up and sleep on the freshly laundered towels funny little cat chirrup noise shaking upright tail when standing next to you, annoy owner until he gives you food say meow repeatedly until belly rubs, feels good, sit by the fire poop in a handbag look delicious and drink the soapy mopping up water then puke giant foamy fur-balls, thinking longingly about tuna brine. Slap the dog because cats rule. Sit as close as possible to warm fire without sitting on cold floor. Purr hiiiiiiiiii feed me now. Chase dog then run away. I shredded your linens for you snuggles up to shoulders or knees and purrs you to sleep snuggles up to shoulders or knees and purrs you to sleep cough hairball, eat toilet paper or scamper. Sniff other cat's butt and hang jaw half open thereafter sleep on my human's head yet stare out cat door then go back inside or rub face on everything. Disappear for four days and return home with an expensive injury; bite the vet chirp at birds. Pet my belly, you know you want to; seize the hand and shred it! scream at teh bath and cats are fats i like to pets them they like to meow back chill on the couch table. Immediately regret falling into bathtub get suspicious of own shadow then go play with toilette paper why dog in house? i'm the sole ruler of this home and its inhabitants smelly, stupid dogs, inferior furballs time for night-hunt, human freakout and at four in the morning wake up owner meeeeeeooww scratch at legs and beg for food then cry and yowl until they wake up at two pm jump on window and sleep while observing the bootyful cat next door that u really like but who already has a boyfriend end up making babies with her and let her move in licks your face for bite plants, so shove bum in owner's face like camera lens. Head nudges attack feet hiding behind the couch until lured out by a feathery toy and step on your keyboard while you're gaming and then turn in a circle attempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what's your problem? i meant to do that now i shall wash myself intently so lick plastic bags.</p>
+<body>
+  <!-- START WRAPPER -->
+  <main class="wrapper-landing">
+<header>
+      <div class="header-logo"><a href="index.php"><img src="images/site_logo.jpg" class="logo responsive"></a>
+        <p>Software Your Way</p>
+      </div>
+      <nav id="cssmenu">
+      <ul>
+        <li><a class="selected" href="index.php"></a></li>
+        <li><a href="services.php"><span>Services</span></a>
+          <ul>
+            <li><a href="software.php"><span>Software</span></a></li>
+            <li><a href="mobile.php"><span>Mobile Apps</span></a></li>
+            <li><a href="database.php"><span>Database </span></a></li>
+          </ul></li>
+          <li><a href="portfolio.php"><span>Portfolio</span></a></li>
+          <li><a href="about.php"><span>About</span></a>
+            <ul>
+              <li><a href="ourstory.php"><span>Our Story</span></a></li>
+              <li><a href="team.php"><span>The Team</span></a></li>
+              <li><a href="careers.php"><span>Career Oppertunities</span></a></li>
+            </ul>
+          </li>
+          <li><a href="blog.php"><span>Blog</span></a></li>
+          <li><a href="contact.php"><span>Contact</span></a></li>
+        </ul>
+      </nav>
+    </header>
+
+  <!-- START MAIN CONTENT -->    
+  <div class="content-landing container"><img src="images/landing_background.png">
+    <h1>CUPCAKE IPSUM</h1>
+    <p>Ko te moemoea a Maui kia haere ngatahi ai ratou ko ona tuakana ki te hii ika. I te hokinga mai o ona tuakana ki tatahi, ka kii atu a Maui, “ka taea e au te haramai i to koutou na taha ki te hii ika?” Engari, ko te whakautu o ona tuakana ki a ia ano, “Kao, he rangatahi noa iho koe. Kaore he wahi mau kei te waka nei, na reira me noho tau ki tatahi ke”. <br/><br />
+Ki ta Maui e kii ai, “Kaore au e whakahoha i a koutou, ka noho hei karetao noa iho, koinei taku whakapono ki a koutou.” Ko te whakautu o te tuakana, “Na to hiroki ka pohehe matou he kai noa iho ma nga ika”. Ka riri haere a Maui. “Maku e whai kaha, whai mana hei whakamana i ahau ano”, noku te mana hei whakaarahi i oku tuakana. Ka whakaritea e Maui he tatai hei whakamanahia i ona ake pukenga mo tenei mea te hii-ika. I tetahi po i a Maui e noho tau ana, ka timatahia e Maui ki te rarangahia he rakau hii-ika. I a ia e rarangahia e waiatatia e Maui tetahi karakia tawhito hei whakakaha i te rakau hii-ika. I te mutunga o tona mahi, i tangohia he kauae raro na tona tupuna i a Murirangawhenua i hoatu ki a ia. I te atatu o te ata, i kawea e Maui tona rakau hii-ika, a, ka huna a Maui ki te kei o te waka o tona tuakana.</p>      
+
+    <!-- END MAIN CONTAINT -->
+  </div>
+
+  <!-- START Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-logo"><a href="index.php"><img src="images/site_logo.jpg" class="logo responsive"></a>
+        </div>
+      <!-- place social media icons here -->
+      <div class="social row">
+        <div class="column"><img src="images/facebook.jpg" class="facebook icon"></div>
+        <div class="column"><img src="images/instagram.jpg" class="instagram icon"></div>
+        <div class="column"><img src="images/linkedin.jpg" class="linkedin icon"></div>
+        <div class="column"><img src="images/twitter.jpg" class="twitter icon"></div>
+      </div>
+    </div>
+    <div class="container footer-lower">
+      <div class="site-map">
+        <table>
+          <tr>
+            <th><a href="services.php">Services</a></th>
+            <th><a href="work.php">Work</a></th>
+            <th><a href="us.php">Us</a></th>
+            <th><a href="blog.php">Blog</a></th>
+            <th><a href="contact.php" class="th-contact">Contact</a></th>
+          </tr>
+<!-- Maybe add more links to site map
+        <tr>
+          <td>Software</td>
+          <td>Portifolio</td>
+          <td>Our Story</td>
+          <td> </td>     
+          <td>Contact Form</td>    
+        </tr>
+        <tr>
+          <td>Mobile Apps</td>
+          <td>Testamonials</td>
+          <td>The Team</td>
+          <td> </td>
+          <td>Career Oppertunities</td>
+        </tr>
+        <tr>
+          <td>Database</td>
+        </tr>
+      -->
+    </table>
+  </div>
+  <div class="copyright"><p><small>&copy; <script>document.write(new Date().getFullYear())</script> by <a href="contactme.php" target="_blank">A4 Loop</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+  </div>
 </div>
-</section>
-<!-- SECTION -->
+</footer>
+<!-- END Footer --> 
 
-<!-- END MAIN CONTAINT -->
-</div>
+</main>
+<!-- END WRAPPER -->
 
-<?php include "includes/footer.php";?>
+<!-- JavaScript associated with the W3Schools.com Top Navigation Response Exercise --> 
+<script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+</body>
+</html>
