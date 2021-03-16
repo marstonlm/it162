@@ -20,7 +20,7 @@
   <!-- START WRAPPER -->
   <main class="wrapper">
     <header>
-      <div class="header-logo"><a href="template.html"><img src="images/site_logo.jpg" class="logo responsive"></a>
+      <div class="header-logo"><a href="index.php"><img src="images/site_logo.jpg" class="logo responsive"></a>
         <p>Software Your Way</p>
       </div>
       <nav id="cssmenu">
