@@ -37,7 +37,7 @@
             <ul>
               <li><a href="ourstory.php"><span>Our Story</span></a></li>
               <li><a href="team.php"><span>The Team</span></a></li>
-              <li><a href="careers.php"><span>Career Oppertunities</span></a></li>
+              <li><a href="career.php"><span>Career Oppertunities</span></a></li>
             </ul>
           </li>
           <li><a href="blog.php"><span>Blog</span></a></li>
@@ -57,7 +57,7 @@
       <!-- START SECTION -->
       <section class="section responsive">
         <div class="container responsive">
-          <img class="img_id" src="images/page_id.jpg" alt="Page ID background image">
+          <img class="img_id" src="<?=$pagePic?>" alt="Page ID background image">
           <div class="page-id"><?=$pageID?></div>
         </div>
 
