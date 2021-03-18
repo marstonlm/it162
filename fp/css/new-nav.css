@@ -21,10 +21,9 @@
 #cssmenu a {
   line-height: 1.5;
 }
-/*#cssmenu {
-  width: auto;
-  background: #fff;
-}*/
+#cssmenu {
+  padding: 15px 25px 0 0;
+}
 /*#cssmenu > ul {
   border: 1px solid rgb(173,173,173);
   -moz-box-shadow: inset 1px 1px 0 rgba(173,173,173, 0.2);
