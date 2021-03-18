@@ -1,7 +1,24 @@
 <?php include "includes/header.php";?>
 <div class="content">
 	<h2>Bite plants</h2>
-	<p>Cat ipsum dolor sit amet, if human is on laptop sit on the keyboard side-eyes your "jerk" other hand while being petted . Hiss and stare at nothing then run suddenly away naughty running cat licks paws. Chill on the couch table murder hooman toes but damn that dog look at dog hiiiiiisssss or steal raw zucchini off kitchen counter dont wait for the storm to pass, dance in the rain and crusty butthole. Jump on counter removed by human jump on counter again removed by human meow before jumping on counter this time to let the human know am coming back cat cat moo moo lick ears lick paws chase red laser dot so massacre a bird in the living room and then look like the cutest and most innocent animal on the planet or fish i must find my red catnip fishy fish scratch me there, elevator butt. Gate keepers of hell meow meow, i tell my human run as fast as i can into another room for no reason, so and sometimes switches in french and say "miaou" just because well why not burrow under covers, skid on floor, crash into wall.</p>
+	<?php
+        /*
+         * Below are 2 different forms to be re-used       
+         * 
+         * Only use one at a time, comment out the other!       
+         *
+         */
+
+        include 'includes/contact_include.php'; #site keys & code here
+        
+        $toAddress = "luann.webster@seattlecentral.edu";  //place your/your client's email address here
+        $toName = "Adele Manalili"; //place your client's name here
+        $website = "A4 Loop";  //place NAME of your client's website
+
+        //echo loadContact('simple.php');#demonstrates a simple contact form
+        echo loadContact('multiple.php');#demonstrates multiple form elements
+
+        ?> 
 </div>
 </section>
 <!-- SECTION -->
