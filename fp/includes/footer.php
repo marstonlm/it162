@@ -17,30 +17,11 @@
         <table>
           <tr>
             <th><a href="services.php">Services</a></th>
-            <th><a href="work.php">Work</a></th>
-            <th><a href="us.php">Us</a></th>
+            <th><a href="portfolio.php">Portfolio</a></th>
+            <th><a href="about.php">About</a></th>
             <th><a href="blog.php">Blog</a></th>
             <th><a href="contact.php" class="th-contact">Contact</a></th>
           </tr>
-<!-- Maybe add more links to site map
-        <tr>
-          <td>Software</td>
-          <td>Portifolio</td>
-          <td>Our Story</td>
-          <td> </td>     
-          <td>Contact Form</td>    
-        </tr>
-        <tr>
-          <td>Mobile Apps</td>
-          <td>Testamonials</td>
-          <td>The Team</td>
-          <td> </td>
-          <td>Career Oppertunities</td>
-        </tr>
-        <tr>
-          <td>Database</td>
-        </tr>
-      -->
     </table>
   </div>
   <div class="copyright"><p><small>&copy; <script>document.write(new Date().getFullYear())</script> by <a href="contactme.php" target="_blank">A4 Loop</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
