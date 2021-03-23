@@ -22,13 +22,13 @@ main.wrapper {
     background-image: url(../images/background_main.png);
 }
 
-/*main.wrapper-landing {
+main.wrapper-landing {
     max-width: 100%;
     margin: 0 auto;
     padding: 0;
     overflow:auto;
-    background-color: rgba(51,51,51,1);
-    }*/
+    background-color: black;
+    }
 
 /* Header */
 header{
@@ -54,7 +54,8 @@ header{
     padding-top:.25rem;
     font-size: .75rem;
     text-align: center;
-    color: rgb(5,67,10);
+    color: rgba(125,9,166,1);
+    /*color: rgb(5,67,10);*/
 }
 
 header>h1 {
@@ -71,21 +72,45 @@ header>h1 {
 }
 
 /* ----- LANDING PAGE ----- */
+
 .content-landing {
-    background-color: orange;
-    width: 100%;
-    float: left;
+    position: relative;
+    width: 55%;
+    float: right;
 }
 
-.content-landing>img {
-    width: 45%
+/*.content-landing>img {
+    position: absolute;
+    z-index: -1;
+    width: 60%;
+    height: auto;
+    float: right;
+}
+*/
+
+#landing-image {
+    boarder: 2px solid pink;
+    height: 100%;
+    width: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.landing-text {
+    position: relative;
+    z-index: 5;
+    width: 25%;
+    margin: 75px 0 50px 75px;
+    padding: 25px;
+    color: rgba(125,9,166,1);
+    float: left;
 }
 
 
 /* ----- ASIDE ----- */
 aside {
     
-    width: 90%;
+    width: 10%;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 10px;
@@ -105,7 +130,7 @@ aside {
 /* ----- SECTION ----- */
 section {
     background-color: rgba(214,214,214,.75);
-    width:90%;
+    width:80%;
     margin-bottom: 1.5rem;
 
     float: right;
@@ -136,6 +161,9 @@ img.img_id {
     opacity: 0.75;
 }
 
+p#contact-us {
+    font-size: 1.75rem;
+}
 
 /* Footer */
 footer {
@@ -171,7 +199,7 @@ div.footer-lower {
     margin: 0;
 }
 
-.column {
+.social>.column {
     float:right;
     width: 32px;
     padding: 7px 0px 7px 10px;
@@ -201,6 +229,25 @@ footer a:hover {
     width: 80%;
     float: right;
     text-align: right;
+}
+
+/* ----- FORM ----- */
+.col-l {
+  width: 45%;
+  margin: 0 auto;
+  float: left;
+}
+
+.col-r {
+  width: 45%;
+  margin-top: 0 auto;
+  float: right;
+}
+
+.row:after {
+  content: "";
+  direction: table;
+  clear: both;
 }
 
 /* Embed Responsively Rules! */
@@ -267,6 +314,11 @@ div.embed-container iframe {
 
     section {
         width: 100%;
+    }
+
+    .col-r, .col-l, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
     }
 
 

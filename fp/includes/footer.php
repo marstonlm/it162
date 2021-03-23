@@ -2,7 +2,7 @@
   <!-- START Footer -->
   <footer>
     <div class="container">
-      <div class="footer-logo"><a href="template.html"><img src="images/site_logo.jpg" class="logo responsive"></a>
+      <div class="footer-logo"><a href="index.php"><img src="images/site_logo.jpg" class="logo responsive"></a>
         </div>
       <!-- place social media icons here -->
       <div class="social row">
@@ -15,7 +15,7 @@
     <div class="container footer-lower">
       <div class="site-map">
         <table>
-          <tr>
+          <tr> 
             <th><a href="services.php">Services</a></th>
             <th><a href="portfolio.php">Portfolio</a></th>
             <th><a href="about.php">About</a></th>
@@ -24,7 +24,7 @@
           </tr>
     </table>
   </div>
-  <div class="copyright"><p><small>&copy; <script>document.write(new Date().getFullYear())</script> by <a href="contactme.php" target="_blank">A4 Loop</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+  <div class="copyright"><p><small>&copy; <script>document.write(new Date().getFullYear())</script> by <a href="contactme.php" target="_blank">A4 Loop</a>, All Rights Reserved ~ <a href="disclaimer.php">Disclaimer</a> ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
   </div>
 </div>
 </footer>

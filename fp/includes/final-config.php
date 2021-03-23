@@ -93,6 +93,12 @@ switch(THIS_PAGE){
 		$pageID = 'Contact Us';
 	break; 
 
+	case 'disclaimer.php':
+		$title = " Disclaimer";
+		$pagePic = 'images/contact_pic.jpg';
+		$pageID = 'Disclaimer';
+	break; 
+
 	default:
 		$title = THIS_PAGE;
 		$pagePic = 'images/page_id.jpg';

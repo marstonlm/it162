@@ -78,9 +78,9 @@ if(
     echo loadContact('simple.php');
     
     //example with custom feedback page
-    $toAddress = "yourname@example.com";  //place your/your client's email address here
-    $toName = "CLIENT NAME HERE"; //place your client's name here
-    $website = "CLIENT WEBSITE NAME HERE";  //place NAME of your client's 
+    $toAddress = "luann.webster@seattlecentral.edu";  //place your/your client's email address here
+    $toName = "A4 Loop"; //place your client's name here
+    $website = "A4 Loop";  //place NAME of your client's 
     echo loadContact('simple.php','new_feedback.php');//custom feedback page
 */
 

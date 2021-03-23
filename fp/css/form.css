@@ -1,15 +1,9 @@
 /* section style */
 
-/* --------Color Palette ---------- 
-#3b1f2b - Dark Purple -- rgba(59,31,43,1)  
-#c73e1d - Vermilion -- rgba(199,62,29,1)
-#2D4654 - Charcoal -- rgba(45,70,84,1)
-#FFFFFC - Baby Powder -- rgba(255,255,252,1)
-#6CCFF6 - Baby Blue -- rgba(108,207,246,1)  
-*/
 
 /* start reCAPTCHA styles */
 form {
+  width: 90%;
   margin-bottom: 5%;
   padding: 1%;
   border:5px solid rgba(59,31,43,.75);
@@ -18,6 +12,7 @@ form {
 
 form>div {
   margin:1em;
+  padding: 1rem;
 }
 		
 /* writes to small text above reCAPTCHA upon failure */
@@ -56,6 +51,8 @@ legend {
   padding: 0.2em 0.5em;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-}
+} 
         
 /* end reCAPTCHA styles */
+
+

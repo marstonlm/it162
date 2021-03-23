@@ -1,17 +1,14 @@
 <?php include "includes/header.php";?>
 <div class="content">
-	<h2>Bite plants</h2>
-	<?php
-        /*
-         * Below are 2 different forms to be re-used       
-         * 
-         * Only use one at a time, comment out the other!       
-         *
-         */
+	<p id="contact-us">To contact us, please fill out the form below or call! We're excited to hear from you.</p><br />
+	<p id="contact-us"><strong>Call us:</strong> 1.123.1234</p> <br />
+	<p id="contact-us"><strong>Email Us:</strong>luluwebster@gmail.com</p><br />
+	
+        <?php
 
         include 'includes/contact_include.php'; #site keys & code here
         
-        $toAddress = "luann.webster@seattlecentral.edu";  //place your/your client's email address here
+        $toAddress = "luluwebster@gmail.com";  //place your/your client's email address here
         $toName = "Adele Manalili"; //place your client's name here
         $website = "A4 Loop";  //place NAME of your client's website
 
