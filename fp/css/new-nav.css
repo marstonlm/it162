@@ -113,7 +113,7 @@
   margin: 0 0 2px 0;
   font-size: 12px;
   display: block;
-  color: black;
+  color: rgb(126,176,15);
   /*text-shadow: 0 1px 1px #000;*/
 }
 #cssmenu > ul > li > a > span {
