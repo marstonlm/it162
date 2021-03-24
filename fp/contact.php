@@ -2,7 +2,7 @@
 <div class="content">
 	<p id="contact-us">To contact us, please fill out the form below or call! We're excited to hear from you.</p><br />
 	<p id="contact-us"><strong>Call us:</strong> 1.123.1234</p> <br />
-	<p id="contact-us"><strong>Email Us:</strong>luluwebster@gmail.com</p><br />
+	<p id="contact-us"><strong>Email Us:</strong>info@a4loop.com</p><br />
 	
         <?php
 
@@ -16,7 +16,7 @@
         echo loadContact('multiple.php');#demonstrates multiple form elements
 
         ?> 
-</div>
+</div> 
 </section>
 <!-- SECTION -->
 
