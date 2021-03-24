@@ -2,14 +2,14 @@
   <!-- START Footer -->
   <footer>
     <div class="container">
-      <div class="footer-logo"><a href="index.php"><img src="images/site_logo.jpg" class="logo responsive"></a>
+      <div class="footer-logo"><a href="index.php"><img src="images/site_logo.jpg" alt="A4 Loop logo" class="logo responsive"></a>
         </div>
       <!-- place social media icons here -->
       <div class="social row">
-        <div class="column"><img src="images/facebook.jpg" class="facebook icon"></div>
-        <div class="column"><img src="images/instagram.jpg" class="instagram icon"></div>
-        <div class="column"><img src="images/linkedin.jpg" class="linkedin icon"></div>
-        <div class="column"><img src="images/twitter.jpg" class="twitter icon"></div>
+        <div class="column"><i class="fab fa-facebook-square"></i></div>
+        <div class="column"><i class="fab fa-instagram"></i></div>
+        <div class="column"><i class="fab fa-linkedin"></i></div>
+        <div class="column"><i class="fab fa-twitter"></i></div>
       </div>
     </div>
     <div class="container footer-lower">
