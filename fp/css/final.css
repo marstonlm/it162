@@ -123,7 +123,6 @@ section {
     background-color: rgba(214,214,214,.75);
     width:80%;
     margin-bottom: 1.5rem;
-
     float: right;
     
 }
@@ -139,9 +138,10 @@ section>.container {
 }
 
 .page-id {
+    background-color: rgba(125,9,166,.25);
     position: absolute;
     top: 1rem;
-    left: 3rem;
+    padding-left: 3rem;
     font-size: 35px;
     font-weight: bold;
 }
@@ -249,12 +249,12 @@ div.embed-container iframe {
 /* Desktops and laptops ----------- */
 @media all and (min-width:1280px) {
     aside {
-        width: 90%;
+        width: 10%;
         padding-bottom: 1rem;
     }
 
     section {
-        width: 95%;
+        width: 85%;
     }
 
     img.img_id {
@@ -269,12 +269,12 @@ div.embed-container iframe {
 /* Tablets  (portrait and landscape) ----------- */
 @media all and (min-device-width:768px) and (max-device-width:1279px) {
  /*   aside {
-        width: 100%;
+        width: 10%;
         padding-bottom: 1rem;
     }
 
     section {
-        width: 100%;
+        width: 80%;
         padding-left: 1rem;
         padding-right: 1rem;
     } */
