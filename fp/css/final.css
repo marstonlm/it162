@@ -231,24 +231,7 @@ footer a:hover {
     text-align: right;
 }
 
-/* ----- FORM ----- */
-.col-l {
-  width: 45%;
-  margin: 0 auto;
-  float: left;
-}
 
-.col-r {
-  width: 45%;
-  margin-top: 0 auto;
-  float: right;
-}
-
-.row:after {
-  content: "";
-  direction: table;
-  clear: both;
-}
 
 /* Embed Responsively Rules! */
 div.embed-container {
