@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/new-nav.css" />
   <link rel="stylesheet" href="css/final.css" />
   <link rel="stylesheet" href="css/form.css" />
+  <script src="https://kit.fontawesome.com/2358758f1c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 </head>
 
