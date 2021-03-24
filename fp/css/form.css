@@ -1,6 +1,81 @@
 /* section style */
 
 
+input[type=text], select, textarea, input[type=email], input[type=tel]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.message {
+  margin: 6px 6px 0 6px;
+  padding: 12px;
+  display: inline-block;
+  width: 75%;
+}
+
+.col-l {
+  width: 40%;
+  margin: 6px 6px 0 6px;
+  float: left;
+}
+
+.col-r {
+  width: 40%;
+  margin: 6px 6px 0 6px;
+  float: left;
+}
+
+
+.row:after {
+  content: "";
+  direction: table;
+  clear: both;
+}
+/*
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+
+
+
+/* START RESPONSIVE STYLES */
+/* Desktops and laptops ----------- */
+@media all and (min-width:1280px) {
+
+
+}
+
+
+/* Tablets  (portrait and landscape) ----------- */
+@media all and (min-device-width:768px) and (max-device-width:1279px) {
+
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media all and (max-device-width:767px) {
+  .col-l, .col-r {
+    width: 100%;
+    margin-top: 0;
+  }
+
+
+}
+
+
+ 
 /* start reCAPTCHA styles */
 form {
   width: 90%;
@@ -39,7 +114,7 @@ input[type="submit"], input[type="button"] {
   border: solid 1px #ccc;
   padding: 0.3em 0.5em;
 }
-
+/*
 fieldset {
   padding-left: 15px;
   border: 1px solid #ccc;
@@ -52,7 +127,7 @@ legend {
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
 } 
-        
+        */
 /* end reCAPTCHA styles */
 
 
