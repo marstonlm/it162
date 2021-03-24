@@ -79,15 +79,6 @@ header>h1 {
     float: right;
 }
 
-/*.content-landing>img {
-    position: absolute;
-    z-index: -1;
-    width: 60%;
-    height: auto;
-    float: right;
-}
-*/
-
 #landing-image {
     boarder: 2px solid pink;
     height: 100%;
@@ -202,7 +193,9 @@ div.footer-lower {
 .social>.column {
     float:right;
     width: 32px;
-    padding: 7px 0px 7px 10px;
+    line-height: 64px;
+    white-space: nowrap;
+    font-size: 20px;
 }
 
 .site-map {
