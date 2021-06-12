@@ -51,7 +51,7 @@
     <div id="content-main" class="container">
       <!-- START ASIDE -->
       <aside class="responsive">
-        <div class="sidebar"><a href="index.html"><i class="fas fa-long-arrow-alt-left"></i> Back To Home</a></div>
+        <div class="sidebar"><a href="index.php"><i class="fas fa-long-arrow-alt-left"></i> Back To Home</a></div>
       </aside>
       <!-- END ASIDE -->
 
